@@ -63,6 +63,7 @@ function draw() {
   }
 
   if (mouse.presses('left')){
-    xo = new Sprite(mouse.x, mouse.y)
+    xo = new Sprite(mouse.x, mouse.y, 30);
+    
   }
 }
