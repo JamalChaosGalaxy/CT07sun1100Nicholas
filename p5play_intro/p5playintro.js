@@ -6,9 +6,9 @@ function setup() {
   background(250); //background color
   // ball = new Sprite();
   // Basic shape testing
-  fill('skyblue');//fill the color
-  stroke('pink');// create the border color
-  strokeWeight(10);// border thickness
+  // fill('skyblue');//fill the color
+  // stroke('pink');// create the border color
+  // strokeWeight(10);// border thickness
   // write your codes here
   circle(30, 30, 50);// circle (x, y, diameter)
   rect(50, 50, 100, 200);// rectangle (x, y, width, height)
