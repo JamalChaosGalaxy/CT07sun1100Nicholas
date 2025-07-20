@@ -8,7 +8,7 @@ body {
     padding: 2rem;
 }
 h1 {
-    color: #00ccff;
+    color: rebeccapurple;
 }
 .game-links {
     margin-top: 2rem;
@@ -29,3 +29,4 @@ a:hover {
     background-color: #00ccff;
     color: #111;
 }
+
