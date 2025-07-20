@@ -53,7 +53,7 @@ function draw() {
     ball.vel.x *= -1; // change =x to -x or vice versa
   }
 
-  if (ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
-    ball.vel.x *= -1; // change =x to -x or vice versa
+  if (ball.y < 0 + ball.diameter / 2 || ball.y > width - ball.diameter / 2){
+    ball.vel.y *= -1; // change =x to -x or vice versa
   }
 }
