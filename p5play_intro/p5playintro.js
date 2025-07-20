@@ -17,7 +17,7 @@ function setup() {
   // End Basic shape testing
 
    // Create a bouncing ball sprite
-   ball = new sprite();
+   ball = new Sprite();
    ball.x = 400;
    ball.y = 200;
    ball.diameter = 40;
