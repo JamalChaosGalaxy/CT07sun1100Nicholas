@@ -3,7 +3,7 @@ function setup() {
   // Set up the canvas
   new Canvas(800, 400);
   background(250); //background color
-  ball = new SpeechRecognitionResult()
+  ball = new Sprite();
   // Basic shape testing
   // write your codes here
  
