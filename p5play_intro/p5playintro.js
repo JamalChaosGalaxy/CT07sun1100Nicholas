@@ -18,7 +18,8 @@ function setup() {
    // Create a bouncing ball sprite
    ball = new sprite();
    ball.x = 100;
-   ball.y = 
+   ball.y = 200;
+   ball.diameter = 30;
    // write your codes here
 
 }
