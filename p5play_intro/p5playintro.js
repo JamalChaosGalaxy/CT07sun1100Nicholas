@@ -19,7 +19,7 @@ function setup() {
    ball = new sprite();
    ball.x = 100;
    ball.y = 200;
-   ball.diameter = 30;
+   ball.diameter = 40;
    // write your codes here
 
 }
