@@ -44,5 +44,6 @@ function draw() {
   background(240);
 
   //show coordinates for the sprites
-  FileList()
+  fill(0);
+   
 }
