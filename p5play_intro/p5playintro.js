@@ -24,7 +24,7 @@ function setup() {
    ball.color = 'red';
    ball.vel.x = 3;// velocity x axis
    ball.vel.y = 3;// velocity y axis
-   ball.bounciness;
+   ball.bounciness = 1;
    // write your codes here
    box = new Sprite();
    box.w = 30;
