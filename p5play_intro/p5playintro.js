@@ -8,7 +8,7 @@ function setup() {
   background(250); //background color
   world.gravity.y=10;
 
-  let floor = new Sprite()
+  let floor = new Sprite(400, 390)
   // ball = new Sprite();
   // Basic shape testing
   // fill('skyblue');//fill the color
