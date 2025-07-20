@@ -25,8 +25,8 @@ function setup() {
    box = new Sprite();
    box.w = 30;
    box.h = 30;
-   box.x = 600;
-   box.y = 30;
+   box.x = 30;
+   box.y = 300;
 
 }
 
