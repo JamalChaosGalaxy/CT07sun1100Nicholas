@@ -69,6 +69,6 @@ function draw() {
   }
   if(mouse.presses('right')){
     xo = new Sprite();
-    x
+    x.collider = 'static';
   }
 }
