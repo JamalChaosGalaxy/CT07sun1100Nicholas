@@ -68,6 +68,7 @@ function draw() {
     xo.boundaries = 0.8; 
   }
   if(mouse.presses('right')){
-    
+    xo = new Sprite();
+    x
   }
 }
