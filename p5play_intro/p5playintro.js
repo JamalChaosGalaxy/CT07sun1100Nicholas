@@ -71,6 +71,7 @@ function draw() {
     xo = new Sprite();
     x.collider = 'static';
 
-  box
+  box.x = mouseX;
+  box.
   }
 }
