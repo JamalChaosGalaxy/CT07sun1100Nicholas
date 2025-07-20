@@ -25,7 +25,7 @@ function setup() {
    ball.vel.x = 3;// velocity x axis
    ball.vel.y = 3;// velocity y axis
    ball.bounciness = 1;
-   
+   ball.collider = 'dynamic'
 
    // write your codes here
    box = new Sprite();
