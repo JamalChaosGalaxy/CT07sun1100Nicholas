@@ -23,7 +23,7 @@ function setup() {
    ball.diameter = 40;
    // write your codes here
    box = new Sprite();
-   
+   box.w = 30
 
 }
 
