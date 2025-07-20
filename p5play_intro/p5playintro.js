@@ -7,7 +7,7 @@ function setup() {
   // Basic shape testing
 
   // write your codes here
-  circle(30, 30, 50);
+  circle(30, 30, 50);// circle 
   React(50, 50, 100, 200)
   // End Basic shape testing
 
