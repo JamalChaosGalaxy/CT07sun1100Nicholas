@@ -11,7 +11,7 @@ function setup() {
   rect(50, 50, 100, 200);// rectangle (x, y, width, height)
   circle(760, 30, 50);
   circle(760, 370, 50);
-  filll
+  fill("skyblue");
   // End Basic shape testing
 
    // Create a bouncing ball sprite
