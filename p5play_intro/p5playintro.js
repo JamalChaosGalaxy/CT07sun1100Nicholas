@@ -70,5 +70,7 @@ function draw() {
   if(mouse.presses('right')){
     xo = new Sprite();
     x.collider = 'static';
+
+  box
   }
 }
