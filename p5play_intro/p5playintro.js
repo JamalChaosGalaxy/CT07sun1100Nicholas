@@ -28,6 +28,7 @@ function setup() {
    box.h = 30;
    box.x = 30;
    box.y = 300;
+   box.color = green;
 
 }
 
