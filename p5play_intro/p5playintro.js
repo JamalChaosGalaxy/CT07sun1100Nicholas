@@ -69,9 +69,9 @@ function draw() {
   }
   if(mouse.presses('right')){
     xo = new Sprite();
-    x.collider = 'static';
+    x.collider = 'dynamic';
 
   box.x = mouseX;
-  box.
+  box.y = mouseY;
   }
 }
