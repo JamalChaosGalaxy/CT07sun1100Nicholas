@@ -12,7 +12,7 @@ function setup() {
   circle(760, 30, 50);
   circle(760, 370, 50);
   fill("skyblue");//fill the color
-  fill()
+  stroke("pink");//
   // End Basic shape testing
 
    // Create a bouncing ball sprite
