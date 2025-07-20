@@ -22,10 +22,10 @@ function setup() {
    ball.y = 200;
    ball.diameter = 40;
    ball.color = 'red';
-   ball.vel.x = 3;// velocity x axis
-   ball.vel.y = 3;// velocity y axis
-   ball.bounciness = 1;
-   ball.collider = 'dynamic';// makes the ball move and not staitonary
+  //  ball.vel.x = 3;// velocity x axis
+  //  ball.vel.y = 3;// velocity y axis
+  //  ball.bounciness = 1;
+  //  ball.collider = 'dynamic';// makes the ball move and not staitonary
   
 
    // write your codes here
