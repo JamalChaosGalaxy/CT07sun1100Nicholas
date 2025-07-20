@@ -54,6 +54,6 @@ function draw() {
   }
 
   if (ball.y < 0 + ball.diameter / 2 || ball.y > width - ball.diameter / 2){
-    ball.vel.y *= -1; // change =x to -x or vice versa
+    ball.vel.y *= -1; // change =y to -y or vice versa
   }
 }
