@@ -7,7 +7,8 @@ function setup() {
   // Basic shape testing
 
   // write your codes here
-  circle(30, 30, 50)
+  circle(30, 30, 50);
+  React(50, 50, )
   // End Basic shape testing
 
    // Create a bouncing ball sprite
