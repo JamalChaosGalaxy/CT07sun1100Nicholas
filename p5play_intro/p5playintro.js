@@ -35,7 +35,7 @@ function setup() {
    box.x = 30;
    box.y = 300;
    box.color = green;
-   ball.collider = 'static';
+  //  ball.collider = 'static';
 
 }
 
