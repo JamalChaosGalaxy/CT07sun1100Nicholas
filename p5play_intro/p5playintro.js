@@ -64,6 +64,7 @@ function draw() {
 
   if (mouse.presses('left')){
     xo = new Sprite(mouse.x, mouse.y, 30);
+    xo.collider = 'dynamic';
     
   }
 }
