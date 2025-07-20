@@ -22,6 +22,7 @@ function setup() {
    ball.y = 200;
    ball.diameter = 40;
    // write your codes here
+   rectangle
 
 }
 
