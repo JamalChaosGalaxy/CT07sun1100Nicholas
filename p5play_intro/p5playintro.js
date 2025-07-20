@@ -45,7 +45,7 @@ function draw() {
 
   //show coordinates for the sprites
   fill(0);
-  textsize(10);
+  textSize(10);
   text("Ball: ("+ int(ball.x)+","+ int(ball.y)+")", 10,20); 
   text("Mouse: ("+mouseX + "," +mouseY + ")", 10,40 ); 
 }
