@@ -8,7 +8,7 @@ function setup() {
 
   // write your codes here
   circle(30, 30, 50);// circle (x, y, diameter)
-  React(50, 50, 100, 200);// rectangle (x, y, width, heigth)
+  React(50, 50, 100, 200);// rectangle (x, y, width, height)
   // End Basic shape testing
 
    // Create a bouncing ball sprite
