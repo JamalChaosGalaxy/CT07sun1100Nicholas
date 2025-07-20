@@ -1,7 +1,7 @@
 let ball;
 function setup() {
   // Set up the canvas
-  new Canvas(800, 400);
+  new Canvas(400, 600);
   background(250); //background color
   ball = new Sprite();
   // Basic shape testing
