@@ -78,7 +78,7 @@ function setup() {
   console.log(evesum);
   // age determination code
   let category = "";
-  let age = Math.floor(Math.random * (16 - 7 + 1)) + 7;
+  let age = Math.floor(Math.random() * (16 - 7 + 1)) + 7;
 
   if (age <= 9){
     category = "Lower Primary";
