@@ -15,7 +15,7 @@ function setup() {
   console.log("Product of a and b is:", product);
   // This lien of code is to display text on the canvas("value",x,y)
   text("Sum of a and b is:"+sum,20,30);
-  text("Product of a and b is:"+product,30,);
+  text("Product of a and b is:"+product,40,50);
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
