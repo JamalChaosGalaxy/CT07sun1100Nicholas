@@ -78,6 +78,6 @@ function setup() {
   console.log(evesum);
   // age determination code
   let console = "";
-  let age = Math.floor(Math.random(16-7 + 1))
+  let age = Math.floor(Math.random(16 - 7 + 1))
 }
 
