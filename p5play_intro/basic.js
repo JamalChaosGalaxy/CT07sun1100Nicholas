@@ -59,11 +59,12 @@ function setup() {
   //   console.log(i)
   // }
 
-  
+  // first way
   // let evensum = 0;
   // for (let i = 2;i<=20; i+=2){
   //   evensumsum += i;
   // }
   // console.log(sum);
+  
 }
 
