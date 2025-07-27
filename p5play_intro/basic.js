@@ -24,7 +24,8 @@ function setup() {
   let base = 10;
   let heihgt = 5;
   let area = 0.5 * (10 * 5);
-  
+
+  console.log("")
   // --- Exercise: Age category classification ---
   // write your codes here
 
