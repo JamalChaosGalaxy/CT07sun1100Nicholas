@@ -39,7 +39,7 @@ function setup() {
   // write your codes here
   let pi = 3.14;
   let radius = 9;
-  
+  let circle_area = pi * (radius * radius)
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
