@@ -80,6 +80,8 @@ function setup() {
   let console = "";
   let age = Math.floor(Math.random(16 - 7 + 1)) + 7;
 
-  if (age <= 9){|}
+  if (age <= 9){
+    category = "Lower Primary"
+  }
 }
 
