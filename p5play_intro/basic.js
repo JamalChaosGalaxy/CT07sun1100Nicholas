@@ -1,6 +1,6 @@
 function setup() {
   // create a new canvas
-  new CanvasCaptureMediaStreamTrack()
+  new canvas(800, 600)
   // write your codes here
   let a = 5;
   let b = 10;
