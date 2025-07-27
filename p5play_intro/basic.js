@@ -1,6 +1,8 @@
 function setup() {
   // create a new canvas
-  new canvas(800, 600)
+  new Canvas(800, 600);
+  background(250);
+  textSize()
   // write your codes here
   let a = 5;
   let b = 10;
