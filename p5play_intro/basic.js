@@ -6,7 +6,7 @@ function setup() {
   let sum = a + b;
   let product = a * b;
 
-  console.log()
+  console.log("Sum of a and b is:", sum)
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
