@@ -54,5 +54,6 @@ function setup() {
   for (let i = 20; i>=1;i--){
     console.log(i)
   }
+  for (let i = 3; i<=46;i + 3){}
 }
 
