@@ -44,15 +44,15 @@ function setup() {
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
   // prints number form 1 to 10 in the console log
-  for (let i = 1; i<=9; i++){
-    console.log(i);
-  }
-  // prints number from 10 to 20
-  for (let i = 10; i<=20;i++){
-    console.log(i)
-  }
-  for (let i = 20; i>=1;i--){
-    console.log(i)
+  // for (let i = 1; i<=9; i++){
+  //   console.log(i);
+  // }
+  // // prints number from 10 to 20
+  // for (let i = 10; i<=20;i++){
+  //   console.log(i)
+  // }
+  // for (let i = 20; i>=1;i--){
+  //   console.log(i)
   }
   for (let i = 3; i<=46;i + 3){
     console.log(i)
