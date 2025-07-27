@@ -67,6 +67,7 @@ function setup() {
   // console.log(sum);
 
   // second way
-  let i
+  let evenum = 0;
+  for (i=0;i<=10;i++)
 }
 
