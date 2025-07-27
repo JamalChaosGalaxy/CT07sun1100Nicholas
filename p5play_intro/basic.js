@@ -81,7 +81,9 @@ function setup() {
   let age = Math.floor(Math.random(16 - 7 + 1)) + 7;
 
   if (age <= 9){
-    category = "Lower Primary"
+    category = "Lower Primary";
+  }else if(age <-12){
+
   }
 }
 
