@@ -13,7 +13,8 @@ function setup() {
 
   console.log("Sum of a and b is:", sum);
   console.log("Product of a and b is:", product);
-  text("Sum of a and b is:", sum,20, );
+  // 
+  text("Sum of a and b is:", sum,20,30);
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
