@@ -23,7 +23,8 @@ function setup() {
   // write your codes here
   let base = 10;
   let heihgt = 5;
-  let area = 0.5 * (10 )
+  let area = 0.5 * (10 * 5);
+  
   // --- Exercise: Age category classification ---
   // write your codes here
 
