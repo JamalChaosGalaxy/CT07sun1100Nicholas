@@ -26,7 +26,7 @@ function setup() {
   let area = 0.5 * (10 * 5);
 
   console.log("The area of the triangle is:", area);
-  text("The area of the triangle is:, "+area,30,50);
+  text("The area of the triangle is: "+area,20,30);
   // --- Exercise: Age category classification ---
   // write your codes here
 
