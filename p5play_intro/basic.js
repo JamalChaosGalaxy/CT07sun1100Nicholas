@@ -71,7 +71,7 @@ function setup() {
   for (i=0;i<=10;i++){
     let evenum = i*2;
     evesum += evenum; 
-    text(evenum,20 +i *50)
+    text(evenum,20 +i *50,yeven);
   }
   console.log(evesum);
 }
