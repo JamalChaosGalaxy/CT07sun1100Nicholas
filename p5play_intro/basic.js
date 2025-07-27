@@ -85,7 +85,7 @@ function setup() {
   }else if(age <=12){
     category = "Upper Primary";
   }else{
-    category = "Secondary"
+    category = "Secondary School";
   }
 }
 
