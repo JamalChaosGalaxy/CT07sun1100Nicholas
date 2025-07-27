@@ -77,7 +77,7 @@ function setup() {
   text("Sum of the first 10 numbers:" + evesum, 20 ,yeven + 30);
   console.log(evesum);
   // age determination code
-  let console = "";
+  let category = "";
   let age = Math.floor(Math.random(16 - 7 + 1)) + 7;
 
   if (age <= 9){
