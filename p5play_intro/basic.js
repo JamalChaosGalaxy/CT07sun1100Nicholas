@@ -48,6 +48,6 @@ function setup() {
     console.log(i);
   }
   // prints number from 10 to 20
-  
+  for (let i = 10; i<=20;i++)
 }
 
