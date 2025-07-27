@@ -68,6 +68,7 @@ function setup() {
 
   // second way
   let evesum = 0;
+  let yeven=60;
   for (i=1;i<=10;i++){
     let evenum = i*2;
     evesum += evenum; 
