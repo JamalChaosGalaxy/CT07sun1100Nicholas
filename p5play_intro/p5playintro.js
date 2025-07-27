@@ -41,7 +41,7 @@ function setup() {
    box.y = 300;
    box.color = 'green';
   //  ball.collider = 'static';
-
+   
 }
 
 function draw() {
