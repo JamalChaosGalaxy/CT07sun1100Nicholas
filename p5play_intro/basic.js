@@ -44,7 +44,7 @@ function setup() {
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
   for (let i = 1; i<=10; i++){
-    console.log(i)
+    console.log(i);
   }
 }
 
