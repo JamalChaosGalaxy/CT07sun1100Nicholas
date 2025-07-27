@@ -88,6 +88,6 @@ function setup() {
     category = "Secondary School";
   }
   console.log("Student age is", age, "is in", category);
-  text("Student age is" + age + "is in" + category, 20, yeven)
+  text("Student age is" + age + "is in" + category, 20, yeven + 70);
 }
 
