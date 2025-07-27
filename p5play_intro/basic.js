@@ -29,7 +29,7 @@ function setup() {
   text("The area of the triangle is: "+area,20,30);
   // --- Exercise: Age category classification ---
   // write your codes here
-  let square
+  let square_ 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
