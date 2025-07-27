@@ -47,6 +47,7 @@ function setup() {
   for (let i = 1; i<=10; i++){
     console.log(i);
   }
-  // prints m
+  // prints number from 10 to 20
+  
 }
 
