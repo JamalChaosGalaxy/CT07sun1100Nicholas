@@ -23,7 +23,7 @@ function setup() {
   // write your codes here
   let base = 10;
   let height = 5;
-  let area = 0.5 * base * heihgt;
+  let area = 0.5 * base * height;
 
   console.log("The area of the triangle is:", area);
   text("The area of the triangle is: "+area,20,30);
