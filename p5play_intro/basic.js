@@ -48,12 +48,13 @@ function setup() {
   //   console.log(i);
   // }
   // // prints number from 10 to 20
-  // for (let i = 10; i<=20;i++){
+  // for (let i = 10; i<=2
+  // ;i++){
   //   console.log(i)
   // }
   // for (let i = 20; i>=1;i--){
   //   console.log(i)
-  }
+  // }
   for (let i = 3; i<=46;i + 3){
     console.log(i)
   }
