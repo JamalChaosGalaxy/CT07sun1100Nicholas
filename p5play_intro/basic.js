@@ -40,7 +40,7 @@ function setup() {
   let pi = 3.14;
   let radius = 9;
   let circle_area = pi * (radius * radius);
-  text("The area of the circle is:" + circle_area, 20, 90);
+  text("The area of the circle is: " + circle_area, 20, 100);
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
