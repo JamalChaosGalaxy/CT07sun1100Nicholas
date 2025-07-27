@@ -3,7 +3,7 @@ function setup() {
   new Canvas(800, 600);
   background(250);
   textSize(250);
-  
+  fill(0);
   // write your codes here
   let a = 5;
   let b = 10;
