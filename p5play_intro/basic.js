@@ -76,5 +76,6 @@ function setup() {
   }
   text("Sum of the first 10 numbers:" + evesum, 20 ,yeven + 30);
   console.log(evesum);
+  // age 
 }
 
