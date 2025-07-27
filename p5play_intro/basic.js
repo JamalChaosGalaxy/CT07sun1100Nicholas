@@ -22,8 +22,8 @@ function setup() {
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
   let base = 10;
-  let heihgt = 5;
-  let area = 0.5 * (10 * 5);
+  let height = 5;
+  let area = 0.5 * base * heihgt;
 
   console.log("The area of the triangle is:", area);
   text("The area of the triangle is: "+area,20,30);
