@@ -70,7 +70,8 @@ function setup() {
   let evesum = 0;
   for (i=0;i<=10;i++){
     let evenum = i*2;
-    evesum += evenum 
+    evesum += evenum; 
   }
+  console.log(evesum);
 }
 
