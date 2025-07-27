@@ -71,7 +71,7 @@ function setup() {
   for (i=1;i<=10;i++){
     let evenum = i*2;
     evesum += evenum; 
-    text(evenum,20 +i *50,yeven);
+    text(evenum,20 +i * 50,yeven);
   }
   text("Sum of the first 10 numbers:" + evesum, 20 ,yeven + 30);
   console.log(evesum);
