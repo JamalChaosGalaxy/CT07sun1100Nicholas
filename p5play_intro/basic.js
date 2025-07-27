@@ -73,7 +73,7 @@ function setup() {
     evesum += evenum; 
     text(evenum,20 +i *50,yeven);
   }
-  text("Sum of the first 10 numbers:" + eve)
+  text("Sum of the first 10 numbers:" + evenum,20,yeven)
   console.log(evesum);
 }
 
