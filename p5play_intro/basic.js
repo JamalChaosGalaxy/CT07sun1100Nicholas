@@ -67,10 +67,10 @@ function setup() {
   // console.log(sum);
 
   // second way
-  let evenum = 0;
+  let evesum = 0;
   for (i=0;i<=10;i++){
     let evenum = i*2;
-    seven
+    evesum += evenum 
   }
 }
 
