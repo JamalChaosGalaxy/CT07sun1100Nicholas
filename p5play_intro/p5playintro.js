@@ -47,6 +47,12 @@ function setup() {
    box.x = 30;
    box.y = 300;
    box.color = 'green';
+   
+   ball = new Sprite();
+   ball.x = 400;
+   ball.y = 200;
+   ball.diameter = 40;
+   ball.color = 'red';
 }
 
 function draw() {
