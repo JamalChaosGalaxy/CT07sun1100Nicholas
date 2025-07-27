@@ -65,6 +65,8 @@ function setup() {
   //   evensumsum += i;
   // }
   // console.log(sum);
-  
+
+  // second way
+  let i
 }
 
