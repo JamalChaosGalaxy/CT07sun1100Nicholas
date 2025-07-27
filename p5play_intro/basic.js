@@ -30,6 +30,7 @@ function setup() {
   // --- Exercise: Age category classification ---
   // write your codes here
   let square_width = 10;
+  let square_length = 10;
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
