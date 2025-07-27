@@ -68,6 +68,8 @@ function setup() {
 
   // second way
   let evenum = 0;
-  for (i=0;i<=10;i++)
+  for (i=0;i<=10;i++){
+    let evenum
+  }
 }
 
