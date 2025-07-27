@@ -79,5 +79,7 @@ function setup() {
   // age determination code
   let console = "";
   let age = Math.floor(Math.random(16 - 7 + 1)) + 7;
+
+  if (age <= 9){|}
 }
 
