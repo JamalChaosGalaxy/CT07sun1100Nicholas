@@ -34,6 +34,34 @@ function setup() {
   let square_area = square_length * square_length;
 
   text("The area of the square is: " + square_area, 20,70);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   console.log("The area of the square is:", square_area)
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
