@@ -87,5 +87,6 @@ function setup() {
   }else{
     category = "Secondary School";
   }
+  console.log("Student age is", age)
 }
 
