@@ -43,7 +43,7 @@ function setup() {
   text("The area of the circle is: " + circle_area, 20, 100);
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
-  // 
+  // prints number form 1 to 10 in the console log
   for (let i = 1; i<=10; i++){
     console.log(i);
   }
