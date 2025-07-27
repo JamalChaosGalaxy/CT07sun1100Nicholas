@@ -31,6 +31,7 @@ function setup() {
   // write your codes here
   let square_width = 10;
   let square_length = 10;
+  let square_area = 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
