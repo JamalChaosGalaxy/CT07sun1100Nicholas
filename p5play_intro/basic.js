@@ -37,7 +37,9 @@ function setup() {
   console.log("The area of the square is:", square_area)
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
-  let 
+  let pi = 3.14;
+  let radius = 9;
+  
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
