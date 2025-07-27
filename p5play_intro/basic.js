@@ -2,8 +2,11 @@ function setup() {
   // write your codes here
   let a = 5;
   let b = 10;
+
   let sum = a + b;
   let product = a * b;
+
+  
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
