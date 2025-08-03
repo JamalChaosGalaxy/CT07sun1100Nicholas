@@ -89,5 +89,33 @@ function setup() {
   }
   console.log("Student age is ", age, " is in", category);
   text("Student age is" + age + "is in" + category, 20, yeven + 70);
+
+  //Lists
+
+  let groceries = ["apples", "bread", "milk"];
+    groceries.push("orange");
+    groceries.push("butter");
+    groceries.shift();
+    groceries.splice(1, 1, "Kaya");
+
+    for(i = 0; i < groceries.length; i++){
+      text(groceries[i], 40 + i * 100, yOdd+70)
+    };
+
+    // let count = 0;
+    // while (count < 5){
+    //   console.log("Counter: ", counter);
+    //   count++;
+    // }
+
+    let count = 19;
+    let yodd = yeven + 100;
+    let xodd = 20;
+    while (count >= 1){
+      console.log("Odd Numbers", odd);
+      text(odd, xodd, yodd);  
+      count-=2;
+    }
+
 }
 
