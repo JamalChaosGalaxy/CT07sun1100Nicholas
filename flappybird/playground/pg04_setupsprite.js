@@ -38,5 +38,6 @@ function draw(){
     }
     //debugging  info
     fill("blue");
-    
+    textSize(14);
+    text("Vel")
 }
