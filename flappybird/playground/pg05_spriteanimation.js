@@ -39,6 +39,8 @@ function draw(){
         bird.vel.y = -5;
         bird.sleeping = false;
     }
+
+    if(bird.vel.y )
     //debugging  info
     fill("blue");
     textSize(14);
