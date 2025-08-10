@@ -47,7 +47,8 @@ function draw(){
         bird.img = flapdownImg;
         bird.rotation = 30;
     }else{
-        bird.i
+        bird.img = flappyMidImg;
+        bird.rotation = 0;
     }
     //debugging  info
     fill("blue");
