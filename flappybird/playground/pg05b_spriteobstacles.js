@@ -8,6 +8,7 @@ function preload(){
     flappyMidImg = loadImage('assets/yellowbird-midflap.png');
     flappyupImg = loadImage('assets/yellowbird-upflap.png');
     flappydownImg = loadImage('assets/yellowbird-downflap.png');
+    pipe = loadImage()
 }
 function setup(){
     new Canvas(400, 600);
@@ -68,5 +69,5 @@ function draw(){
 function spamPipePair(){
     let gap = 50;
     let midY = height/2;
-    
+
 }
