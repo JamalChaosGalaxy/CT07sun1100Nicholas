@@ -6,7 +6,7 @@ function preload(){
     base = loadImage('assets/base.png');
     flappyMidImg = loadImage('assets/yellowbird-midflap.png');
     flappyUpImg = loadImage('assets/yellowbird-upflap.png');
-    flappyDownImg = loadImage('assets/yellowbird-upflap.png');
+    flappyDownImg = loadImage('assets/yellowbird-downflap.png');
 }
 function setup(){
     new Canvas(400, 600);
