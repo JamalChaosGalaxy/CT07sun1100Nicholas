@@ -77,5 +77,5 @@ function spamPipePair(){
     bottomePipe.img = pipe;
 
     pipeGroup.add(bottomePipe);
-    pipe
+    pipeGroup.layer = 0;
 }
