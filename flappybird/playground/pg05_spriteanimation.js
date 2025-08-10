@@ -41,7 +41,8 @@ function draw(){
     }
 
     if(bird.vel.y < -1){
-        bird.img = fla
+        bird.img = flapupImg;
+        bird.rotation 
     }
     //debugging  info
     fill("blue");
