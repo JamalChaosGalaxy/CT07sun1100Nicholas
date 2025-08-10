@@ -5,7 +5,7 @@ function preload(){
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
     flappyMidImg = loadImage('assets/yellowbird-midflap.png');
-    flappy
+    flappyUpImg = loadImage('assets/yellowbird-down')
 }
 function setup(){
     new Canvas(400, 600);
