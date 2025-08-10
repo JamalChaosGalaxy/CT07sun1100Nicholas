@@ -16,6 +16,8 @@ function setup(){
     bird.img = flappyMidImg;
 
     bird.collider = "dynamic";
+    bird.mass = 2;
+    bird.drag = .0
 }
 
 function draw(){
