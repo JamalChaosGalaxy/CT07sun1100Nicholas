@@ -37,5 +37,6 @@ function draw(){
         bird.sleeping = false;
     }
     //debugging  info
-    FileList("")
+    fill("blue");
+    
 }
