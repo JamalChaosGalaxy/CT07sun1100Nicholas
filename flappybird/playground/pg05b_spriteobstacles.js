@@ -73,5 +73,5 @@ function spamPipePair(){
     let midY = height/2;
 
     //create bottom pipe Sprite
-    bottomePipe = newSprite(400, )
+    bottomePipe = newSprite(400,midY-gap/2 )
 }
