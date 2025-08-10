@@ -41,4 +41,5 @@ function draw(){
     textSize(14);
     text("Vel.y" + bird.vel.y.toFixed(2), 10,20);
     text("is Moving" + bird.isMoving, 10,40)
+    text("is ")
 }
