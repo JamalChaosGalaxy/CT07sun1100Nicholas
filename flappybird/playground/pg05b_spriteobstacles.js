@@ -79,6 +79,7 @@ function spamPipePair(){
     bottomePipe = newSprite(400,midY+gap/2 - 200, 52,320, 'static');
     bottomePipe.img = pipe;
 
-    pipeGroup.add(bottomePipe);
+    pipeGroup.add(bottomPipe);
+    pipeGroup.add(topPipe)
     pipeGroup.layer = 0;
 }
