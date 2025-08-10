@@ -55,7 +55,7 @@ function draw(){
     }
 
     if(framecount === 1){
-        spamPipePair()
+        spamPipePair()// calling the 
     }
     //debugging  info
     fill("blue");
