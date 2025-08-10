@@ -57,7 +57,7 @@ function draw(){
         bird.rotation = 0;
     }
 
-    if(framecount === 1){
+    if(frameCount === 1){
         spamPipePair()// calling the function spampipe pair which we create below
     }
     //debugging  info
