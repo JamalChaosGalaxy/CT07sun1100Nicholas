@@ -1,6 +1,6 @@
 let bird, floor;
 let bg, base, flappyMidImg;
-let flapupImg, 
+let flapupImg, flapdownImg, flap
 function preload(){
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
