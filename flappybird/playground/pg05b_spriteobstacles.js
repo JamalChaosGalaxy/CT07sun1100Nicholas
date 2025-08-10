@@ -54,7 +54,9 @@ function draw(){
         bird.rotation = 0;
     }
 
-    if(fra)
+    if(framecount === 1){
+        
+    }
     //debugging  info
     fill("blue");
     textSize(14);
