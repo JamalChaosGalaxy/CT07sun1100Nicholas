@@ -15,7 +15,7 @@ function setup(){
     bird.height = 30;
     bird.img = flappyMidImg;
 
-    bird.collider
+    bird.collider = "dynamic"
 }
 
 function draw(){
