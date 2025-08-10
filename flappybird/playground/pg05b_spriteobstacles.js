@@ -67,5 +67,6 @@ function draw(){
 
 function spamPipePair(){
     let gap = 50;
-    let mid
+    let midY = height/2;
+    
 }
