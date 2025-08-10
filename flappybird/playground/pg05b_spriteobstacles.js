@@ -8,7 +8,7 @@ function preload(){
     flappyMidImg = loadImage('assets/yellowbird-midflap.png');
     flappyupImg = loadImage('assets/yellowbird-upflap.png');
     flappydownImg = loadImage('assets/yellowbird-downflap.png');
-    pipe = loadImage('assets/pipe-green.png')
+    pipe = loadImage('assets/pipe-green.png');// loads the pipe image
 }
 function setup(){
     new Canvas(400, 600);
