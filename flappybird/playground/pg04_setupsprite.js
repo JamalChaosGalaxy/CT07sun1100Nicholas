@@ -39,5 +39,6 @@ function draw(){
     //debugging  info
     fill("blue");
     textSize(14);
-    text("Vel.y" + bird.vel.y.toFixed(2), )
+    text("Vel.y" + bird.vel.y.toFixed(2), 10,20);
+    
 }
