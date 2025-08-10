@@ -55,7 +55,7 @@ function draw(){
     }
 
     if(framecount === 1){
-        spamPipePair()// calling the function spampipe pair which 
+        spamPipePair()// calling the function spampipe pair which we create below
     }
     //debugging  info
     fill("blue");
@@ -63,4 +63,8 @@ function draw(){
     text("Vel.y" + bird.vel.y.toFixed(2), 10,20);
     text("is Moving" + bird.isMoving, 10,40)
     text("Sleeping" + bird.sleeping, 10,60)
+}
+
+function spamPipePair(){
+    let 
 }
