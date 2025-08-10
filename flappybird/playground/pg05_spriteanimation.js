@@ -40,7 +40,9 @@ function draw(){
         bird.sleeping = false;
     }
 
-    if(bird.vel.y )
+    if(bird.vel.y < -1){
+        bird.img = fla
+    }
     //debugging  info
     fill("blue");
     textSize(14);
