@@ -53,6 +53,8 @@ function draw(){
         bird.img = flappyMidImg;
         bird.rotation = 0;
     }
+
+    if(fra)
     //debugging  info
     fill("blue");
     textSize(14);
