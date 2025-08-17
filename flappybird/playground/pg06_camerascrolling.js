@@ -70,6 +70,8 @@ function draw(){
     if(frameCount === 1){
         spawnPipePair()// calling the function spawnpipe pair which we crete be;ow
     }
+
+    if(frameCount )
     //debuggin info
     fill("blue");
     textSize(14);
