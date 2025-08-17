@@ -74,6 +74,8 @@ function draw(){
     if(frameCount % 90 === 0){//Spawns pipe every 1.5 seconds
         spawnPipePair()
     }
+
+    for(let pipe of pipeGroup)
     //debuggin info
     fill("blue");
     textSize(14);
