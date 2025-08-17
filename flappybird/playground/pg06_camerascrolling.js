@@ -45,7 +45,8 @@ function draw(){
     //draw the bg
     image(bg,0,0, width, height); 
 
-    bird.x += 3;
+    bird.x += 3; // shifts bird by 3 pixels
+    
     
     if(kb.presses('space')){
         bird.vel.y = -5;
