@@ -6,6 +6,7 @@ let pipe;
 let topPipe, bottomPipe;
 let gameoverImg, gameoverLabel;
 let startScreenLabel, startScreenImg;
+let 
 function preload(){
  //load the base the bg and the fpappy bird   
  bg = loadImage('assets/background-day.png');
