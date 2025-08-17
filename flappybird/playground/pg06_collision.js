@@ -56,7 +56,8 @@ function draw(){
     floor.x = camera.x; // lock the floor pos to the bird.x position
 
     if(kb.preses('space')){
-        sat
+        startGame = true;
+        start
     }
     
     if(kb.presses('space')){
