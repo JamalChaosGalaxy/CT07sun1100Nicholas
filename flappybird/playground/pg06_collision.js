@@ -60,6 +60,8 @@ function draw(){
         startScreenLabel.visible = false;
         bird.visible = true;
     }
+
+    //next code if 
     
     if(kb.presses('space')){
         bird.vel.y = -5;
