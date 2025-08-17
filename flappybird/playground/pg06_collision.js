@@ -51,10 +51,12 @@ function draw(){
     //draw the bg
     image(bg,0,0, width, height); 
     
-    bird.x += 3; // shifts bird by 3 pixels
-    camera.x = bird.x; // lock the camera pos to teh bird.x pos
-    floor.x = camera.x; // lock the floor pos to the bird.x position
-
+    
+if(kb.preses('space')){
+        startGame = true;
+        startScreenLabel.visible = false;
+        bird.visible = true;
+    }
     
 
     //next code if starting flag is true then run all the other code
