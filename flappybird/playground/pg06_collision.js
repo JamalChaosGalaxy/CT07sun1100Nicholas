@@ -4,8 +4,7 @@ let flagUpImg, flapDownImg;
 let pipeGroup; // declare var for grp;
 let pipe;
 let topPipe, bottomPipe;
-let gameoverImg;
-let gameoverLabel;
+let gameoverImg, gameoverLabel;
 function preload(){
  //load the base the bg and the fpappy bird   
  bg = loadImage('assets/background-day.png');
