@@ -58,7 +58,7 @@ function draw(){
     if(startGame){
 
     }
-    n
+    bird.collider='dynamic'
     bird.x += 3; // shifts bird by 3 pixels
     camera.x = bird.x; // lock the camera pos to teh bird.x pos
     floor.x = camera.x; // lock the floor pos to the bird.x position
