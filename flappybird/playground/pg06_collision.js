@@ -5,7 +5,7 @@ let pipeGroup; // declare var for grp;
 let pipe;
 let topPipe, bottomPipe;
 let gameoverImg, gameoverLabel;
-let startScreenLabel
+let startScreenLabel, startScreenImg;
 function preload(){
  //load the base the bg and the fpappy bird   
  bg = loadImage('assets/background-day.png');
@@ -15,6 +15,7 @@ function preload(){
  flagUpImg = loadImage('assets/yellowbird-downflap.png');
  pipe = loadImage('assets/pipe-green.png'); // preloads the image for pipe
  gameoverImg = loadImage('assets/gameover.png');
+ 
 }
 
 function setup(){
