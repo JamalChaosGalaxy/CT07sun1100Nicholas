@@ -47,7 +47,7 @@ function draw(){
 
     bird.x += 3; // shifts bird by 3 pixels
     camera.x = bird.x; // lock the camera pos to teh bird.x pos
-    floor.x = camera.x; // lock the floor pos to 
+    floor.x = camera.x; // lock the floor pos to the bird.x position
     
     if(kb.presses('space')){
         bird.vel.y = -5;
