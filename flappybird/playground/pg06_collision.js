@@ -28,6 +28,7 @@ function setup(){
     bird.width = 30;
     bird.height =30;
     bird.img = flapMidImg; 
+    bird.visible =
 
     bird.collider = "static";
     bird.mass = 2;
