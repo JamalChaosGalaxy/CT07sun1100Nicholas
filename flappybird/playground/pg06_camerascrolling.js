@@ -71,7 +71,9 @@ function draw(){
         spawnPipePair()// calling the function spawnpipe pair which we crete be;ow
     }
 
-    if(frameCount % 90 === 0)
+    if(frameCount % 90 === 0){
+        spawnPipePair()
+    }
     //debuggin info
     fill("blue");
     textSize(14);
