@@ -99,7 +99,7 @@ function spawnPipePair(){
     topPipe.img = pipe;                                             // appear infront of bird we do bird.x + 400
 
     //create bottom pipe sprite
-    bottomPipe = new Sprite(400,midY+gap /2 +200,52,320,'static');
+    bottomPipe = new Sprite(bird.x+400,midY+gap /2 +200,52,320,'static');
     bottomPipe.img = pipe;
 
     pipeGroup.add(bottomPipe);
