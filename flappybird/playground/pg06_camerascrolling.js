@@ -76,7 +76,9 @@ function draw(){
     }
 
     for(let pipe of pipeGroup){
-        
+        if(pipe.x <- 50){
+            
+        }
     }
     //debuggin info
     fill("blue");
