@@ -63,8 +63,7 @@ function draw(){
 
     //next code if starting flag is true then run all the other code
     if(startGame){
-        bird.x += 3; // shifts bird by 3 pixels
-        camera.x = bird.x; // lock the camera pos to teh bird.x pos
+        
     }
     
     if(kb.presses('space')){
