@@ -75,7 +75,9 @@ function draw(){
         spawnPipePair()
     }
 
-    for(let pipe of pipeGroup)
+    for(let pipe of pipeGroup){
+        
+    }
     //debuggin info
     fill("blue");
     textSize(14);
