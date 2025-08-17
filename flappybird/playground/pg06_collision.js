@@ -41,7 +41,7 @@ function setup(){
     floor.collider = "static";
     floor.img = base; 
     
-    roof = new Sprite(0, -5, 30, 10, 'static')
+    roof = new Sprite(0, -5, 30, 10, 'static');
     pipeGroup = new Group();
 }
 
