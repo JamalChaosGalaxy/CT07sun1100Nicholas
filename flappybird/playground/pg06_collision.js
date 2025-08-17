@@ -62,6 +62,9 @@ function draw(){
     }
 
     //next code if starting flag is true then run all the other code
+    if(startGame){
+        
+    }
     
     if(kb.presses('space')){
         bird.vel.y = -5;
