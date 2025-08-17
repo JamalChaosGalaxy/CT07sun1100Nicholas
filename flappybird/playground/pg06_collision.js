@@ -80,6 +80,8 @@ function draw(){
             pipe.remove();
         }
     }
+
+    if(bird)
     //debuggin info
     fill("blue");
     textSize(14);
