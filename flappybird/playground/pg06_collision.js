@@ -1,4 +1,4 @@
-let bird, floor;// declare objects variable
+let bird, floor, roof;// declare objects variable
 let bg, base, flapMidImg;// declar the images variables;
 let flagUpImg, flapDownImg;
 let pipeGroup; // declare var for grp;
