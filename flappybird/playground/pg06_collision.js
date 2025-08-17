@@ -81,8 +81,8 @@ function draw(){
         }
     }
 
-    if(bird.collides(pipeGroup) || bird.collides(floor)){// 
-
+    if(bird.collides(pipeGroup) || bird.collides(floor)){// if my bird sprite hits the pipes or touches the floor, loop is paused
+        
     }
     //debuggin info
     fill("blue");
