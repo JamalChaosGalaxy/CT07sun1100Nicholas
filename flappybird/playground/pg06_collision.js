@@ -57,7 +57,8 @@ function draw(){
 
     if(kb.preses('space')){
         startGame = true;
-        startScreenLabel.visible = false
+        startScreenLabel.visible = false;
+        bird.visible = true;
     }
     
     if(kb.presses('space')){
