@@ -118,7 +118,6 @@ function draw(){
     text("Sleeping: " + bird.Sleeping, 10,60);
     }
     
-  
 
 }
 
