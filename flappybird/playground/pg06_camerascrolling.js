@@ -96,7 +96,7 @@ function spawnPipePair(){
     let midY = height /2;
     //create top pipe sprite
     topPipe = new Sprite(bird.x+400,midY-gap /2 -200,52,320,'static');//prev x cooridnates for pipe is at a fixed 400 to make it 
-    topPipe.img = pipe;                                             
+    topPipe.img = pipe;                                             // appear infront of bird we do bird.x
 
     //create bottom pipe sprite
     bottomPipe = new Sprite(400,midY+gap /2 +200,52,320,'static');
