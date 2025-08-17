@@ -12,7 +12,7 @@ function preload(){
  flapDownImg = loadImage('assets/yellowbird-upflap.png');
  flagUpImg = loadImage('assets/yellowbird-downflap.png');
  pipe = loadImage('assets/pipe-green.png'); // preloads the image for pipe
- gamsoverImg = loadImage('assets/gameover.png');
+ gameoverImg = loadImage('assets/gameover.png');
 
 }
 
