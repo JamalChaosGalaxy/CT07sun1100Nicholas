@@ -93,7 +93,7 @@ function spawnPipePair(){
 
     //control the gap and height of the top and bottom pipe
     let gap = 50;
-    let midY = height /2;
+    let midY = random;
     //create top pipe sprite
     topPipe = new Sprite(bird.x+400,midY-gap /2 -200,52,320,'static');//prev x cooridnates for pipe is at a fixed 400 to make it 
     topPipe.img = pipe;                                             // appear infront of bird we do bird.x + 400
