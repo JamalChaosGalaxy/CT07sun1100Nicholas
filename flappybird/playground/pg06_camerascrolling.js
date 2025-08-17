@@ -44,6 +44,8 @@ function setup(){
 function draw(){
     //draw the bg
     image(bg,0,0, width, height); 
+
+    bird
     
     if(kb.presses('space')){
         bird.vel.y = -5;
