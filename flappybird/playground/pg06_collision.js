@@ -81,7 +81,9 @@ function draw(){
         }
     }
 
-    if(bird.collides(pipeGroup) || bird.collides)
+    if(bird.collides(pipeGroup) || bird.collides(floor)){
+        
+    }
     //debuggin info
     fill("blue");
     textSize(14);
