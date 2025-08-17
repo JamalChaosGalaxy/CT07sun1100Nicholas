@@ -61,7 +61,7 @@ function draw(){
         bird.visible = true;
     }
 
-    //next code if 
+    //next code if starting 
     
     if(kb.presses('space')){
         bird.vel.y = -5;
