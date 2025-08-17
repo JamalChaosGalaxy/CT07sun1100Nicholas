@@ -57,7 +57,7 @@ function draw(){
 
     if(kb.preses('space')){
         startGame = true;
-        start
+        startScreenLabel.visible = false
     }
     
     if(kb.presses('space')){
