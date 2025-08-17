@@ -95,7 +95,7 @@ function spawnPipePair(){
     let gap = 50;
     let midY = height /2;
     //create top pipe sprite
-    topPipe = new Sprite(bird.x+400,midY-gap /2 -200,52,320,'static');
+    topPipe = new Sprite(bird.x+400,midY-gap /2 -200,52,320,'static');//pipe 
     topPipe.img = pipe;
 
     //create bottom pipe sprite
