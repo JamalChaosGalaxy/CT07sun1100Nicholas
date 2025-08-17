@@ -81,7 +81,7 @@ function draw(){
         }
     }
 
-    if(bird)
+    if(bird.collides())
     //debuggin info
     fill("blue");
     textSize(14);
