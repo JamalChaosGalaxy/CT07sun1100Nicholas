@@ -46,7 +46,7 @@ function draw(){
     image(bg,0,0, width, height); 
 
     bird.x += 3; // shifts bird by 3 pixels
-    camera.x = bird.x
+    camera.x = bird.x; // lock the camera 
     
     if(kb.presses('space')){
         bird.vel.y = -5;
