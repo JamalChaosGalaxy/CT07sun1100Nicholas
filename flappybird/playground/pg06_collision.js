@@ -50,15 +50,7 @@ function setup(){
 function draw(){
     //draw the bg
     image(bg,0,0, width, height); 
-    if(kb.preses('space')){
-        startGame = true;
-        startScreenLabel.visible = false;
-        bird.visible = true;
-    }
-    if(startGame){
-
-    }
-    bird.collider='dynamic'
+    
     bird.x += 3; // shifts bird by 3 pixels
     camera.x = bird.x; // lock the camera pos to teh bird.x pos
     floor.x = camera.x; // lock the floor pos to the bird.x position
