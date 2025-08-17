@@ -52,67 +52,67 @@ function draw(){
     image(bg,0,0, width, height); 
     
     
-if(kb.preses('space')){
-        startGame = true;
-        startScreenLabel.visible = false;
-        bird.visible = true;
-    }
-    
-
-    //next code if starting flag is true then run all the other code
-    if(startGame){
-        bird.collider = "dynamic";
-        bird.x += 3; // shifts bird by 3 pixels
-        camera.x = bird.x; // lock the camera pos to teh bird.x pos
-        floor.x = camera.x; // lock the floor pos to the bird.x position
-
-    }
-    
-    if(kb.presses('space')){
-        bird.vel.y = -5;
-        bird.sleeping = false;
-    }
-    
-    if(bird.vel.y < -1){
-        bird.img = flagUpImg;
-        bird.rotation = -30;
-    }
-    else if(bird.vel.y > 1){
-        bird.img = flapDownImg;
-        bird.rotation = 30;
-    }
-    else{
-        bird.img = flapMidImg;
-        bird.rotation =0;
-    }
-    
-    if(frameCount === 1){
-        spawnPipePair()// calling the function spawnpipe pair which we crete be;ow
-    }
-
-    if(frameCount % 90 === 0){//Spawns pipe every 1.5 seconds
-        spawnPipePair()
-    }
-
-    for(let pipe of pipeGroup){
-        if(pipe.x <- 50){
-            pipe.remove();
+    if(kb.preses('space')){
+            startGame = true;
+            startScreenLabel.visible = false;
+            bird.visible = true;
         }
-    }
+        
 
-    if(bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(roof)){// if my bird sprite hits the pipes or touches the floor, loop is paused
-        gameoverLabel = new Sprite(width/2, height/2, 192,42); //create new Sprite to show the game over label
-        gameoverLabel.img = gameoverImg; // call game over image
-        gameoverLabel.layer = 100;
-        gameoverLabel.x = camera.x;
-        noLoop()
-    }
-    //debuggin info
-    fill("blue");
-    textSize(14);
-    text("Vel.y" + bird.vel.y.toFixed(2), 10,20);
-    text("is Moving: " + bird.isMoving, 10,40);
-    text("Sleeping: " + bird.Sleeping, 10,60);
+        //next code if starting flag is true then run all the other code
+        if(startGame){
+            bird.collider = "dynamic";
+            bird.x += 3; // shifts bird by 3 pixels
+            camera.x = bird.x; // lock the camera pos to teh bird.x pos
+            floor.x = camera.x; // lock the floor pos to the bird.x position
+
+        }
+        
+        if(kb.presses('space')){
+            bird.vel.y = -5;
+            bird.sleeping = false;
+        }
+        
+        if(bird.vel.y < -1){
+            bird.img = flagUpImg;
+            bird.rotation = -30;
+        }
+        else if(bird.vel.y > 1){
+            bird.img = flapDownImg;
+            bird.rotation = 30;
+        }
+        else{
+            bird.img = flapMidImg;
+            bird.rotation =0;
+        }
+        
+        if(frameCount === 1){
+            spawnPipePair()// calling the function spawnpipe pair which we crete be;ow
+        }
+
+        if(frameCount % 90 === 0){//Spawns pipe every 1.5 seconds
+            spawnPipePair()
+        }
+
+        for(let pipe of pipeGroup){
+            if(pipe.x <- 50){
+                pipe.remove();
+            }
+        }
+
+        if(bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(roof)){// if my bird sprite hits the pipes or touches the floor, loop is paused
+            gameoverLabel = new Sprite(width/2, height/2, 192,42); //create new Sprite to show the game over label
+            gameoverLabel.img = gameoverImg; // call game over image
+            gameoverLabel.layer = 100;
+            gameoverLabel.x = camera.x;
+            noLoop()
+        }
+        //debuggin info
+        fill("blue");
+        textSize(14);
+        text("Vel.y" + bird.vel.y.toFixed(2), 10,20);
+        text("is Moving: " + bird.isMoving, 10,40);
+        text("Sleeping: " + bird.Sleeping, 10,60);
 
 }
 
