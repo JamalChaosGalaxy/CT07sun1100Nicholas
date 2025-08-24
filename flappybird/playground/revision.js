@@ -5,6 +5,8 @@ function setup(){
 
     new Canvas(800, 800);
 
+    world.gravity.y = 
+
 }
 
 function draw(){
