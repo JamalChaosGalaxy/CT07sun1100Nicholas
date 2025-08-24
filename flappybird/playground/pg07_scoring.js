@@ -58,7 +58,7 @@ function setup(){
     startScreenLabel.img=startScreenImg;
     
     scoreDigits = new Group();// create new group
-    
+    scoreDigits.collider = 'none';
 }
 
 function draw(){
