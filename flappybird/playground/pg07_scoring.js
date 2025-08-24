@@ -153,5 +153,5 @@ function spawnPipePair(){
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight){
-    scoreDigits.removeAll();//cle
+    scoreDigits.removeAll();//clear old digits sprites
 }
