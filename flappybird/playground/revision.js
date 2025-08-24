@@ -1,5 +1,5 @@
 //create the two required must have functions
-//declare 
+let ball//declare var balll
 function setup(){
     //create canvas 800 x 800
 
