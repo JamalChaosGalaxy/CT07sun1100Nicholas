@@ -164,6 +164,6 @@ function drawScore(x, y, score, digitWidth, digitHeight){
         //find the x positions of the digit
         let xPos = startX + i * digitWidth;
         let digitSprite = new scoreDigits.sprite(xPos,y, digitWidth, digitHeight);//create the spirte the size of the digit image
-        digitSprite.img = numberImages
+        digitSprite.img = numberImages[digits];
     }
 }
