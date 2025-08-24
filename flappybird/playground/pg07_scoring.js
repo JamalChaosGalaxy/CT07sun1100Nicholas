@@ -157,4 +157,8 @@ function drawScore(x, y, score, digitWidth, digitHeight){
     let scoreStr = str(score);//make score a string
     let totalWidth = scoreStr.length + digitWidth;// find out whats the total width taken by all digits
     let startX = x-totalWidth/2;//create startign x coords
+
+    for(let i = 0; i<scoreStr.length; i++){
+        
+    }
 }
