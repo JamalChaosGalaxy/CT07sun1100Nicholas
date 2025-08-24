@@ -155,6 +155,6 @@ function spawnPipePair(){
 function drawScore(x, y, score, digitWidth, digitHeight){
     scoreDigits.removeAll();//clear old digits sprites
     let scoreStr = str(score);//make score a string
-    let totalWidth = scoreStr.length + digitWidth;
+    let totalWidth = scoreStr.length + digitWidth;// find out whats the total width taken by all digits
     let startX = x-totalWidth/2;//create startign x coords
 }
