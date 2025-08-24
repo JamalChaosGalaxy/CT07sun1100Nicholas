@@ -3,7 +3,7 @@
 function setup(){
     //create canvas 800 x 800
 
-    n
+    new Canvas(800, 800)
 }
 
 function draw(){
