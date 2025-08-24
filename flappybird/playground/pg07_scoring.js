@@ -11,7 +11,7 @@ let startGame = false;
 // declare var score = 0
 let score = 0
 //declare new list called numberImages
-
+let numberLists = 
 // declare var scoreDigits we will use this for groups
 function preload(){
  //load the base the bg and the fpappy bird   
