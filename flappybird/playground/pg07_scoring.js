@@ -9,7 +9,7 @@ let startScreenLabel;
 let startScreenImg;
 let startGame = false;
 // declare var score = 0
-
+    
 //declare new list called numberImages
 
 // declare var scoreDigits we will use this for groups
