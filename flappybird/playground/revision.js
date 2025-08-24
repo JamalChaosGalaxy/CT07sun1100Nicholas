@@ -1,5 +1,6 @@
 //create the two required must have functions
-let ball;//declare var balll
+let ball;//declare var ball
+let floor;
 function setup(){
     //create canvas 800 x 800
 
