@@ -12,7 +12,7 @@ let startGame = false;
 
 //declare new list called numberImages
 
-// declare 
+// declare var scoreDigits we will use this for groups
 function preload(){
  //load the base the bg and the fpappy bird   
  bg = loadImage('assets/background-day.png');
