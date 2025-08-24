@@ -10,7 +10,9 @@ let startScreenImg;
 let startGame = false;
 // declare var score = 0
 
-//declare 
+//declare new list called numberImages
+
+// declare 
 function preload(){
  //load the base the bg and the fpappy bird   
  bg = loadImage('assets/background-day.png');
