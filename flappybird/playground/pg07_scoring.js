@@ -159,6 +159,7 @@ function drawScore(x, y, score, digitWidth, digitHeight){
     let startX = x-totalWidth/2;//create startign x coords
 
     for(let i = 0; i<scoreStr.length; i++){
-        //
+        //get the digits from the score string
+        
     }
 }
