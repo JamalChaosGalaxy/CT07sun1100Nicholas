@@ -18,6 +18,6 @@ function draw(){
     if(mouse.presses()){
         //create ball sprite x = 10, y = 10, diameter = 20
         ball = new Sprite(10,10,20);
-        ball.bounciness = 10;
+        ball.bounciness = 10; //make the ball bounce
     }
 }
