@@ -152,6 +152,6 @@ function spawnPipePair(){
     pipeGroup.layer = 0;
 }
 
-function drawScore(x, y, score, digitWidth, digit){
+function drawScore(x, y, score, digitWidth, digitHeight){
 
 }
