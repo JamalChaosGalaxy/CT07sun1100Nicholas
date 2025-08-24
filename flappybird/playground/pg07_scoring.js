@@ -163,5 +163,6 @@ function drawScore(x, y, score, digitWidth, digitHeight){
         let digit = int(scoreStr[i]);
         //find the x positions of the digit
         let xPos = startX + i * digitWidth;
+        let digitSprite = new scoreDigits
     }
 }
