@@ -9,7 +9,8 @@ function setup(){
     world.gravity.y = 10;//set gravity (10)
     // create floor sprite 
     floor = new Sprite(0, 800, 600, 30);
-    
+    // set collider to = static
+    floor.collider = 'static';
 
 }
 
