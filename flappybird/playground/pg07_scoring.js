@@ -161,5 +161,7 @@ function drawScore(x, y, score, digitWidth, digitHeight){
     for(let i = 0; i<scoreStr.length; i++){
         //get the digits from the score string
         let digit = int(scoreStr[i]);
+        //find the x positions of the digit
+        let xPos = startX + i * digitWidth;
     }
 }
