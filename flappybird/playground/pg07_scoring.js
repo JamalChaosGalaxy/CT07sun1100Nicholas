@@ -59,7 +59,7 @@ function setup(){
     
     scoreDigits = new Group();// create new group
     scoreDigits.collider = 'none';
-    score
+    scoreDigits.layer = 1000;
 }
 
 function draw(){
