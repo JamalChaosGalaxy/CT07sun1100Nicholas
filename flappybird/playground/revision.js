@@ -10,5 +10,6 @@ function setup(){
 function draw(){
     if(mouse.presses()){
         //create ball sprite x = 10, y = 10, diameter = 20
+        ball = new Sprite
     }
 }
