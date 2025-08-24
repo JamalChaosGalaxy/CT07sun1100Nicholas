@@ -55,7 +55,7 @@ function setup(){
 function draw(){
     //draw the bg
     image(bg,0,0, width, height); 
-      if(kb.presses('space')){
+      if(kb.presses('space') || mouse){
         startGame =true;
         startScreenLabel.visible = false;
         bird.visible = true;
