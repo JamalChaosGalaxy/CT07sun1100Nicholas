@@ -7,6 +7,7 @@ function setup(){
     new Canvas(800, 800);
 
     world.gravity.y = 10;//set gravity (10)
+    // create floor sprite 
 
 }
 
