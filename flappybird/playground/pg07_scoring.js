@@ -11,7 +11,9 @@ let startGame = false;
 
 let score = 0;
 
-let 
+let numberImages = [];
+
+let scoreDigits;
 function preload(){
  //load the base the bg and the fpappy bird   
  bg = loadImage('assets/background-day.png');
