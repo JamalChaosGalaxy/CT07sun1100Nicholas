@@ -79,7 +79,7 @@ function draw(){
     camera.x = bird.x; //lock the camera position to the bird.x position
     floor.x = camera.x;// lock the floor position to the bird.x position
 
-    drawScore(x,y,score,digitWidth, digit)
+    drawScore(x,y,score,digitWidth, digitHeight)
 
   
 
