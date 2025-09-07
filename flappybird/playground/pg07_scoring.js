@@ -24,6 +24,9 @@ function preload(){
  pipe = loadImage('assets/pipe-green.png'); // preloads the image for pipe
  gameoverImg = loadImage('assets/gameover.png');
  startScreenImg = loadImage('assets/message.png');
+ for(i = 0; i < 10; i++){
+    
+ }
 }
 
 function setup(){
