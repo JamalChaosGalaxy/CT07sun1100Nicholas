@@ -79,6 +79,8 @@ function draw(){
     camera.x = bird.x; //lock the camera position to the bird.x position
     floor.x = camera.x;// lock the floor position to the bird.x position
 
+    drawScore
+
   
 
     //next code if startgame flag is true then run all the other code
