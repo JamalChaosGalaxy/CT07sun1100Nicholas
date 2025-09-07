@@ -57,7 +57,8 @@ function setup(){
     roof = new Sprite(0,-0.5,30,30,'static'); // to prevent the bird from flying over 
     pipeGroup = new Group();
 
-    score
+    scoreDigits = new Group();
+    
 
     startScreenLabel = new Sprite(width/2,height/2,50,50,'none');
     startScreenLabel.img=startScreenImg;
