@@ -1,10 +1,10 @@
 //create two main functions
 function setup(){
-
+    new CanvasCaptureMediaStreamTrack()
 }
 
 function draw(){
-    
+
 }
 //set up canvas (800, 400)
 
