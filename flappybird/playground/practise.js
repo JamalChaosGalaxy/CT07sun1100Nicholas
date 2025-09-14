@@ -1,4 +1,5 @@
 //create two main functions
+let square;
 function setup(){
     new Canvas(800, 400);
 }
