@@ -1,6 +1,7 @@
 //create two main functions
 let square, circle;
 let pipe;
+let dynamic_circle;
 function setup(){
     new Canvas(800, 400);
 
