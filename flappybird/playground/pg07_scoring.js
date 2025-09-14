@@ -79,7 +79,9 @@ function draw(){
     camera.x = bird.x; //lock the camera position to the bird.x position
     floor.x = camera.x;// lock the floor position to the bird.x position
 
-    drawScore(x,y,score,digitWidth, digitHeight)
+    drawScore(width/2 ,20,score,24, 36){
+
+    }
 
   
 
@@ -152,4 +154,19 @@ function spawnPipePair(){
     pipeGroup.add(bottomPipe);
     pipeGroup.add(topPipe);
     pipeGroup.layer = 0;
+}
+
+function drawScore(x,y,score,digitWidth, digitHeight){
+    scoreDigits.removeAll();
+    declare scoreStr = str(score);
+    let totalWidth = scoreStr.length * digitWidth;
+
+    //starting x coord
+    let startX = x-totalWidth/2;
+    for(i = 0; i < scoreStr.length; i++){
+        let digit = int(scoreStr[i]);
+        let xPos = startX + i * digitWidth;
+        let digitSprite = new scoreDigits.Sprite(xPos, y, digitWidth. digitHeight);
+        digitSprite.img = numberImages[digit];
+    }
 }
