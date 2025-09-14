@@ -18,6 +18,7 @@ function setup(){
 function draw(){
     if(mouse.presses('left')){
         dynamic_circle = new Sprite()
+        dynamic_circle.radius 
     }
 
 }
