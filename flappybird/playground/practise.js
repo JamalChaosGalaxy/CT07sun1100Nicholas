@@ -2,15 +2,18 @@
 let square, circle;
 function setup(){
     new Canvas(800, 400);
-}
 
-function draw(){
     square = new Sprite(800, 400);
     square.width = 30;
     square.height = 30;
 
     circle = new Sprite(100, 350, 50);
     
+}
+
+function draw(){
+    
+
 }
 //set up canvas (800, 400)
 
