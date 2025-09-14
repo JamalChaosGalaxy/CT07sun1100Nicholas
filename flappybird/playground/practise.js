@@ -18,7 +18,7 @@ function setup(){
 }
 
 function draw(){
-    if(mouse.presses('left')){
+    if(mouse.presses('left') || KeyboardEvent.presses){
         dynamic_circle = new Sprite()
         dynamic_circle.collider = 'dynamic';
         dynamic_circle.bounciness = 10;
