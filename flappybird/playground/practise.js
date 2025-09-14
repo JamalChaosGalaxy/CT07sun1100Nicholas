@@ -9,7 +9,8 @@ function draw(){
     square.width = 30;
     square.height = 30;
 
-    circle = new Sprite(100, 350, )
+    circle = new Sprite(100, 350, 50);
+    
 }
 //set up canvas (800, 400)
 
