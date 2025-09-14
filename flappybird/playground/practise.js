@@ -25,6 +25,7 @@ function draw(){
         dynamic_circle.diameter = 50;
         dynamic_circle.collider = 'dynamic';
         dynamic_circle.bounciness = 10;
+        dynamic_circle
     }
     mouse_sprite = new Sprite();
     mouse_sprite.x = mouse.x;
