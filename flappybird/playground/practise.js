@@ -28,6 +28,7 @@ function draw(){
     mouse_sprite.width = 50;
     mouse_sprite.height = 50;
 
+    let i = 0;
     while(i < 5){
 
     }
