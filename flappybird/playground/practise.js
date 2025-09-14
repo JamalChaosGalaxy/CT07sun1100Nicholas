@@ -2,6 +2,7 @@
 let square, circle;
 let pipe;
 let dynamic_circle;
+let mouse_sprite;
 function setup(){
     new Canvas(800, 400);
 
