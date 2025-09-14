@@ -15,6 +15,8 @@ function setup(){
 
     pipe = new Group()
 
+    world.gravity.y = 10;
+
 }
 
 function draw(){
