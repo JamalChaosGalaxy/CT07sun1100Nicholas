@@ -2,3 +2,5 @@
 
 //set up canvas (800, 400)
 
+//declare a var square and create a square sprite
+//x 
