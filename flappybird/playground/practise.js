@@ -25,7 +25,7 @@ function draw(){
     mouse_sprite = new Sprite();
     mouse_sprite.x = mouse.x;
     mouse_sprite.y = mouse.y;
-    
+    mouse_sprite.
 
 }
 //set up canvas (800, 400)
