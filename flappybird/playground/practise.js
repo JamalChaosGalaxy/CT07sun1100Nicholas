@@ -1,5 +1,6 @@
 //create two main functions
 let square, circle;
+let pipe;
 function setup(){
     new Canvas(800, 400);
 
@@ -8,7 +9,7 @@ function setup(){
     square.height = 30;
 
     circle = new Sprite(100, 350, 50);
-    
+
 }
 
 function draw(){
