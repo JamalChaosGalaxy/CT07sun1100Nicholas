@@ -23,7 +23,8 @@ function draw(){
         dynamic_circle.bounciness = 10;
     }
     mouse_sprite = new Sprite();
-    
+    mouse_sprite.x = mouse.x;
+    mouse_sprite.y = mouse.y;
 
 }
 //set up canvas (800, 400)
