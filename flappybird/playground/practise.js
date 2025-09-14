@@ -44,7 +44,7 @@ function draw(){
 }
 
 function preload(){
-    skibidi = loadImage('assets/pop_image.png')
+    skibidi = loadImage('assets/background-day.png')
 }
 //set up canvas (800, 400)
 
