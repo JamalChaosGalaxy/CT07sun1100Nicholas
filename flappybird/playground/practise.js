@@ -14,6 +14,6 @@
 
 //while loop syntax and for loop syntax
 
-//create a sprite at
+//create a sprite at mouse position
 
 //declare
