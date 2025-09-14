@@ -10,7 +10,7 @@
 
 //declare a var pipe and create a new group
 
-//left click create a dynamic circ;e add om bounciness
+//left click create a dynamic circle, add om bounciness
 
 //while loop syntax and for loop syntax
 
