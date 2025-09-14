@@ -15,7 +15,9 @@ function setup(){
 }
 
 function draw(){
-
+    if(mouse.presses('left')){
+        
+    }
 
 }
 //set up canvas (800, 400)
