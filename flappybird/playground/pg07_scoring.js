@@ -8,6 +8,7 @@ let gameoverImg, gameoverLabel;
 let startScreenLabel;
 let startScreenImg;
 let startGame = false;
+let flapSound, fallSound, pointSound;
 
 let score = 0;
 
