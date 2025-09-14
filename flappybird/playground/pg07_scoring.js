@@ -136,6 +136,7 @@ function draw(){
     if(bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(roof)){ //if my bird sprite hits the pipes or touches the floor loops is paused
         gameoverLabel = new Sprite(width/2,height/2, 192,42); //create new sprite to show the game over label
         gameoverLabel.img = gameoverImg; // call game over image
+        fallSound.play()
         gameoverLabel.layer = 100;
         gameoverLabel.x = camera.x;
         noLoop();
