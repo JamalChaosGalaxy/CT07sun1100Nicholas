@@ -20,15 +20,15 @@ function preload(){
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
- flapDownImg = loadImage('assets/yellowbird-upflap.png');
- flagUpImg = loadImage('assets/yellowbird-downflap.png');
- pipe = loadImage('assets/pipe-green.png'); // preloads the image for pipe
- gameoverImg = loadImage('assets/gameover.png');
- startScreenImg = loadImage('assets/message.png');
- for(i = 0; i < 10; i++){
-    numberImages[i] = loadImage('assets/' + i + '.png');
-
- }
+    flapDownImg = loadImage('assets/yellowbird-upflap.png');
+    flagUpImg = loadImage('assets/yellowbird-downflap.png');
+    pipe = loadImage('assets/pipe-green.png'); // preloads the image for pipe
+    gameoverImg = loadImage('assets/gameover.png');
+    startScreenImg = loadImage('assets/message.png');
+    for(i = 0; i < 10; i++){
+        numberImages[i] = loadImage('assets/' + i + '.png');
+        
+    }
 }
 
 function setup(){
