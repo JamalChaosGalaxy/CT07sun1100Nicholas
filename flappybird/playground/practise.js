@@ -1,3 +1,4 @@
 //create two main functions
 
-//set up canvas (900, )
+//set up canvas (800, 400)
+
