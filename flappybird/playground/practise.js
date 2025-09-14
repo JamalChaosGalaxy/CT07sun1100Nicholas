@@ -28,6 +28,10 @@ function draw(){
     mouse_sprite.width = 50;
     mouse_sprite.height = 50;
 
+    while(i < 5){
+        
+    }
+
 }
 //set up canvas (800, 400)
 
