@@ -28,7 +28,7 @@ function preload(){
     for(i = 0; i < 10; i++){
         numberImages[i] = loadImage('assets/' + i + '.png');
     }
-    flapSound = createAudio('assets/')
+    flapSound = createAudio('assets/sfx_wings')
 }
 
 function setup(){
