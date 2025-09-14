@@ -10,6 +10,8 @@ function setup(){
 
     circle = new Sprite(100, 350, 50);
 
+    pipe 
+
 }
 
 function draw(){
