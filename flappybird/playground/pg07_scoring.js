@@ -79,9 +79,7 @@ function draw(){
     camera.x = bird.x; //lock the camera position to the bird.x position
     floor.x = camera.x;// lock the floor position to the bird.x position
 
-    drawScore(width/2 ,20,score,24, 36){
-
-    }
+    drawScore(width/2 ,20,score,24, 36)
 
   
 
@@ -118,6 +116,16 @@ function draw(){
             pipe.remove();
         }
     }
+    for(let pipe of pipeGroup){
+        let pipeRightEdge = pipe.x + pipe.w /2;
+
+        let birdLeftEdge = bird.x = bird.w / 2;
+
+        if (pipe.passed == false && pipeRightEdge < birdLeftEdge){
+            pipe.passed = true;
+            score++;
+        }
+    }
     
     if(bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(roof)){ //if my bird sprite hits the pipes or touches the floor loops is paused
         gameoverLabel = new Sprite(width/2,height/2, 192,42); //create new sprite to show the game over label
@@ -145,7 +153,10 @@ function spawnPipePair(){
     let midY = random(250, height-250);
     //create top pipe sprite
     topPipe = new Sprite(bird.x+400,midY-gap /2 -200,52,320,'static');//prev x coordinate for pipe is at fixed 400 to make it 
-    topPipe.img = pipe;                                               //appear infront of bird we do bird.x +400
+    topPipe.img = pipe;//appear infront of bird we do bird.x +400
+    topPipe.rotation = 100;
+
+    topPipe.pressed = false;
 
     //create bottom pipe sprite
     bottomPipe = new Sprite(bird.x+400,midY+gap /2 +200,52,320,'static');
@@ -168,5 +179,15 @@ function drawScore(x,y,score,digitWidth, digitHeight){
         let xPos = startX + i * digitWidth;
         let digitSprite = new scoreDigits.Sprite(xPos, y, digitWidth. digitHeight);
         digitSprite.img = numberImages[digit];
+    }
+
+    function moveGroup(group, targetX, spacing){
+        let totalWidth = (group.length - 1) * spacing;
+
+        let startX = (targetX - totalWidth/2);
+
+        for(let i = 0; i < group.length; i++){
+            group[i].x = startX + i * spacing;
+        }
     }
 }
