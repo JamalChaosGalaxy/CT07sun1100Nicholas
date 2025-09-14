@@ -17,9 +17,9 @@ let numberImages = [];
 let scoreDigits;
 function preload(){
  //load the base the bg and the fpappy bird   
- bg = loadImage('assets/background-day.png');
- base = loadImage('assets/base.png');
- flapMidImg = loadImage('assets/yellowbird-midflap.png');
+    bg = loadImage('assets/background-day.png');
+    base = loadImage('assets/base.png');
+    flapMidImg = loadImage('assets/yellowbird-midflap.png');
  flapDownImg = loadImage('assets/yellowbird-upflap.png');
  flagUpImg = loadImage('assets/yellowbird-downflap.png');
  pipe = loadImage('assets/pipe-green.png'); // preloads the image for pipe
