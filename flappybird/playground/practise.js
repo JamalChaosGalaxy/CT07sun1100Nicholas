@@ -40,7 +40,7 @@ function draw(){
 }
 
 function preload(){
-    
+    pop_image = load
 }
 //set up canvas (800, 400)
 
