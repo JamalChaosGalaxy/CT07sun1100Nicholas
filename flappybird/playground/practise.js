@@ -6,6 +6,8 @@ function setup(){
 
 function draw(){
     square = new Sprite(800, 400);
+    square.width = 30;
+    
 }
 //set up canvas (800, 400)
 
