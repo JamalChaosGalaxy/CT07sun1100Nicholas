@@ -30,11 +30,11 @@ function draw(){
 
     let i = 0;
     while(i < 5){
-        i++
+        i++;
     }
 
-    for(let j = 0; j < 10; J++){
-        j++
+    for(let j = 0; j < 10; j++){
+        
     }
 }
 //set up canvas (800, 400)
