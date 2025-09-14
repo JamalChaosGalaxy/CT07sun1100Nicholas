@@ -17,7 +17,7 @@ function setup(){
 
 function draw(){
     if(mouse.presses('left')){
-        
+        dynamic_circle = new Sprite()
     }
 
 }
