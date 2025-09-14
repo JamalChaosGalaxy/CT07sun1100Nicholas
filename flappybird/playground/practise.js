@@ -33,7 +33,7 @@ function draw(){
     }
 
     for(let j = 0; j < 10; J++){
-        
+
     }
 }
 //set up canvas (800, 400)
