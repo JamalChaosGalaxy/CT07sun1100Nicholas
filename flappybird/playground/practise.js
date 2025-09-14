@@ -25,7 +25,7 @@ function draw(){
         dynamic_circle.diameter = 50;
         dynamic_circle.collider = 'dynamic';
         dynamic_circle.bounciness = 10;
-        dynamic_circle
+        dynamic_circle.img = pop_image;
     }
     mouse_sprite = new Sprite();
     mouse_sprite.x = mouse.x;
@@ -41,11 +41,10 @@ function draw(){
     for(let j = 0; j < 10; j++){
         console.log("Hi");
     }
-    pop_image.img = skibidi;
 }
 
 function preload(){
-    skibidi = loadImage('assets/background-day.png')
+    pop_image = loadImage('assets/background-day.png')
 }
 //set up canvas (800, 400)
 
