@@ -22,7 +22,7 @@ function draw(){
         dynamic_circle = new Sprite(mouse.x, mouse.y, 50, 'dynamic');
         dynamic_circle.y = mouse.y;
         dynamic_circle.x = mouse.x;
-        dynamic_circle.
+        dynamic_circle.diameter = 50;
         dynamic_circle.collider = 'dynamic';
         dynamic_circle.bounciness = 10;
     }
