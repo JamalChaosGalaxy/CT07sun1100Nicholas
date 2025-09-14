@@ -29,9 +29,12 @@ function draw(){
     mouse_sprite.height = 50;
 
     while(i < 5){
-        
+
     }
 
+    for(let j = 0; j < 10; J++){
+        
+    }
 }
 //set up canvas (800, 400)
 
