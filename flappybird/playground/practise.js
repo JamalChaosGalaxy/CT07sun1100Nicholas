@@ -1,5 +1,9 @@
 //create two main functions
 function setup(){
+
+}
+
+function draw(){
     
 }
 //set up canvas (800, 400)
