@@ -10,4 +10,6 @@
 
 //declare a var pipe and create a new group
 
-//left click 
+//left click create a dynamic circ;e add om bounciness
+
+//while loop 
