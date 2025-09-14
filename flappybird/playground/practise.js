@@ -7,7 +7,7 @@ let pop_image;
 function setup(){
     new Canvas(800, 400);
 
-    square = new Sprite(800, 400);
+    square = new Sprite(400, 200);
     square.width = 30;
     square.height = 30;
 
