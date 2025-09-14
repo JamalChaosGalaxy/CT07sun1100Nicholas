@@ -1,200 +1,283 @@
-let bird, floor ,roof;// declare objects variable
-let bg, base, flapMidImg;// declar the images variables;
-let flagUpImg, flapDownImg;
-let pipeGroup; // declare var for grp;
-let pipe;
+let bird, floor; // objects
+let flapMidImg,  bg, base; // images
+let flapUpImg,flapDownImg; // images for flap up and down
+let pipe; // image for pipes
 let topPipe, bottomPipe;
-let gameoverImg, gameoverLabel;
-let startScreenLabel;
-let startScreenImg;
+let pipeGroup; // declare the group for pipe
+let gameoverImg; // declare variable for image
+let gameoverLabel; // declare variable for game over sprite
 let startGame = false;
-let flapSound, fallSound, pointSound;
 
+let startScreenLabel; // declare variable for start screen
+let startScreenImg; // declare variable for image
+
+// scoring
 let score = 0;
+let numberImages = []; // store number/score images
+let scoreDigits; // group for storing the different numbers
 
-let numberImages = [];
+function preload() {
+    // bird image, background and the floor
+    flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
+    // preload images for flap up and down
+    flapUpImg = loadImage('assets/yellowbird-upflap.png');
+    flapDownImg = loadImage('assets/yellowbird-downflap.png')
 
-let scoreDigits;
-function preload(){
- //load the base the bg and the fpappy bird   
+    pipe = loadImage('assets/pipe-green.png'); // preload image for pipe
+
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
-    flapMidImg = loadImage('assets/yellowbird-midflap.png');
-    flapDownImg = loadImage('assets/yellowbird-upflap.png');
-    flagUpImg = loadImage('assets/yellowbird-downflap.png');
-    pipe = loadImage('assets/pipe-green.png'); // preloads the image for pipe
-    gameoverImg = loadImage('assets/gameover.png');
-    startScreenImg = loadImage('assets/message.png');
-    for(i = 0; i < 10; i++){
-        numberImages[i] = loadImage('assets/' + i + '.png');
+
+    gameoverImg = loadImage('assets/gameover.png'); // preload the image
+
+    startScreenImg = loadImage('assets/message.png'); // preload the image
+
+    for (let i = 0; i < 10; i++){
+      numberImages[i] = loadImage('assets/' + i +'.png');
     }
-    flapSound = createAudio('assets/sfx_wings.mp3');
-    fallSound = createAudio('assets/sfx_die.mp3');
-    pointSound = createAudio('assets/sfx_point.mp3');
 }
 
-function setup(){
-    new Canvas(400, 600);
+function setup() {
+  new Canvas(400, 600);
 
-    bird = new Sprite();
-    bird.x = width/2;
-    bird.y = 200;
-    bird.width = 30;
-    bird.height =30;
-    bird.img = flapMidImg; 
-    bird.visible = false;
+  // Bird Sprite construction
+  bird = new Sprite();
+  bird.x = width / 2;
+  bird.y = 200,
+  bird.width = 30;
+  bird.height = 30;
+  bird.img = flapMidImg; // defined earlier in preload()
+  bird.visible = false;
 
-    bird.collider = "static";
-    bird.mass = 2;
-    bird.drag = 0.02;
-    bird.bounciness = 0.5;
-    world.gravity.y = 10;
+  // setting bird physics
+  bird.collider = "static"; 
+  bird.mass = 2;         // heavier = stronger pull from gravity
+  bird.drag = 0.02;      // air resistance
+  bird.bounciness = 0.5; // how much it bounces when hitting floor
+  world.gravity.y = 10;
 
-    floor = new Sprite();
-    floor.x = 200;
-    floor.y = height - 20;
-    floor.width = 400;
-    floor.height =125;
-    floor.collider = "static";
-    floor.img = base; 
-    
-    roof = new Sprite(0,-0.5,30,30,'static'); // to prevent the bird from flying over 
-    pipeGroup = new Group();
+  // Floor to bounce bird
+  floor = new Sprite();
+  floor.x = 200;
+  floor.y = height - 20;
+  floor.width = 400;
+  floor.height = 125;
+  floor.collider = "static"; 
+  floor.img = base;
 
-    scoreDigits = new Group();
-    scoreDigits.collider = "none";
-    scoreDigits.layer = 1000;
+  pipeGroup = new Group();
 
-    startScreenLabel = new Sprite(width/2,height/2,50,50,'none');
-    startScreenLabel.img=startScreenImg;
+  // setup the start message and display
+  startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
+  startScreenLabel.img = startScreenImg;
+
+  // setup group for score
+  scoreDigits = new Group();
+  scoreDigits.collider = 'none';
+  scoreDigits.layer = 1000;
 }
 
-function draw(){
-    //draw the bg
-    image(bg,0,0, width, height); 
-      if(kb.presses('space') || mouse.presses()){
-        startGame =true;
-        startScreenLabel.visible = false;
-        bird.visible = true;
-        flapSound.play();
-    }
-    if(startGame){
-        bird.collider = 'dynamic';
-        bird.x += 3; // shift bird by 3 pixel
-    camera.x = bird.x; //lock the camera position to the bird.x position
-    floor.x = camera.x;// lock the floor position to the bird.x position
+function draw() {
+  image(bg, 0, 0, width, height);        
 
-    drawScore(width/2 ,20,score,24, 36)
+  // at start of game, press space or mouse to start
+  if (kb.presses('space') || mouse.presses()){
+    startGame = true;
+    startScreenLabel.visible = false;
+    bird.visible = true;
+  }
 
-  
+  // if startGame flag is true, then run all the other code
+  if (startGame){
+    // new code to make bird dynamic only when game start
+    bird.collider = "dynamic"; 
+  // make the bird move "forward"
+    bird.x += 2; // make the bird move forward
+    camera.x = bird.x; // "lock" the camera pos to the bird.x pos
+    floor.x = camera.x;// "lock" the floor pos to the bird.x pos
 
-    //next code if startgame flag is true then run all the other code
-    
-    if(kb.presses('space')){
-        bird.vel.y = -5;
-        bird.sleeping = false;
-    }
-    
-    if(bird.vel.y < -1){
-        bird.img = flagUpImg;
-        bird.rotation = -30;
-    }
-    else if(bird.vel.y > 1){
-        bird.img = flapDownImg;
-        bird.rotation = 30;
-    }
-    else{
-        bird.img = flapMidImg;
-        bird.rotation =0;
+      // Apply upward push when space is pressed
+    if (kb.presses('space') || mouse.presses()) {
+      bird.vel.y = -5; // which direction do you think this is?
+      bird.sleeping = false; // wake up if sleeping
     }
     
-    if(frameCount === 1){
-        spawnPipePair();// calling the function spawnpipe pair which we crete be;ow
+    // Activity: Change image according to flying action/ falling
+    if (bird.vel.y < -1) {
+      bird.img = flapUpImg; // flying upward
+      bird.rotation = -30; // rotate up
+    } 
+    else if (bird.vel.y > 1) {
+      bird.img = flapDownImg; // falling
+      bird.rotation = 30; // rotate down
+    } 
+    else {
+      bird.img = flapMidImg; // neutral
+      bird.rotation = 0;
     }
 
-    if(frameCount % 90 === 0){ //trying to spawn the pipes every 1.5seconds
-        spawnPipePair();
+    if (frameCount === 1){
+      spawnPipePair();
     }
 
-    for(let pipe of pipeGroup){
-        if(pipe.x <-50){ //trying to remove the off screen pipes (pipes that has pass remove it)
-            pipe.remove();
-        }
-    }
-    for(let pipe of pipeGroup){
-        let pipeRightEdge = pipe.x + pipe.w /2;
-
-        let birdLeftEdge = bird.x = bird.w / 2;
-
-        if (pipe.passed == false && pipeRightEdge < birdLeftEdge){
-            pipe.passed = true;
-            pointSound.play();
-            score++;
-        }
-    }
-    
-    if(bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(roof)){ //if my bird sprite hits the pipes or touches the floor loops is paused
-        gameoverLabel = new Sprite(width/2,height/2, 192,42); //create new sprite to show the game over label
-        gameoverLabel.img = gameoverImg; // call game over image
-        fallSound.play();
-        gameoverLabel.layer = 100;
-        gameoverLabel.x = camera.x;
-        noLoop();
+    if (frameCount % 120 === 0){
+      spawnPipePair();
     }
 
-    //debuggin info
+    // remove offscreenpipes
+    for (let pipe of pipeGroup){
+      if (pipe.x < -50){
+        pipe.remove();
+      }
+    }
+
+    // increase score if pipe passed
+    for (let pipe of pipeGroup) {
+      // center pos + half pipe width = right edge pos
+      let pipeRightEdge = pipe.x + pipe.w / 2; 
+
+      // center pos - half bird width = left edge pos
+      let birdLeftEdge = bird.x - bird.w / 2; 
+
+      // compare x-coordinates of player and pipes
+      if (pipe.passed == false && pipeRightEdge < birdLeftEdge){
+        pipe.passed = true;
+        score++; 
+      }
+    }
+
+    // call drawScore function. scoreWidth=24,scoreHeight=36
+    drawScore(width/2, 20, score, 24, 36)
+
+    // End Game on Collision
+    // note that this is checking collision against the group
+    if (bird.collides(pipeGroup) || bird.collides(floor)){
+      gameoverLabel = new Sprite(width/2, height/2, 192, 42);
+      gameoverLabel.img = gameoverImg;
+      gameoverLabel.layer = 100; // make the game over text come to front
+      gameoverLabel.x = camera.x;
+
+      noLoop(); 
+    }
+
+    // Debug info (optional)
     fill("blue");
     textSize(14);
-    text("Vel.y" + bird.vel.y.toFixed(2), 10,20);
-    text("is Moving: " + bird.isMoving, 10,40);
-    text("Sleeping: " + bird.Sleeping, 10,60);
-    }
-    
-
+    text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
+    text('isMoving: ' + bird.isMoving, 10, 40);
+    text('sleeping: ' + bird.sleeping , 10, 60);
+    text('bird.x: ' + bird.x.toFixed(2), 10, 80);
+  }
 }
-
+ 
+/* 
+Function to create a pair of pipes
+and add it to the group
+*/ 
 function spawnPipePair(){
+  // control the gap and height of the top and bottom pipe
+  let gap = 70;
+  // let midY = height / 2;
+  let midY = random(250, height - 250); // random(min, max)
 
-    //control the gap and height of the top and bottom pipe
-    let gap = 50;
-    let midY = random(250, height-250);
-    //create top pipe sprite
-    topPipe = new Sprite(bird.x+400,midY-gap /2 -200,52,320,'static');//prev x coordinate for pipe is at fixed 400 to make it 
-    topPipe.img = pipe;//appear infront of bird we do bird.x +400
-    topPipe.rotation = 100;
+  // create the top pipe
+  topPipe = new Sprite(bird.x + 400, midY - gap / 2 - 200, 52, 320, 'static');
+  topPipe.img = pipe;
+  topPipe.rotation = 180;
 
-    topPipe.pressed = false;
+  // Add to one pipe per pair (top or bottom)
+  topPipe.passed = false; 
 
-    //create bottom pipe sprite
-    bottomPipe = new Sprite(bird.x+400,midY+gap /2 +200,52,320,'static');
-    bottomPipe.img = pipe;
+  // create the bottom pipe sprite
+  bottomPipe = new Sprite(bird.x + 400, midY + gap / 2 + 200, 52, 320, 'static');
+  bottomPipe.img = pipe;
 
-    pipeGroup.add(bottomPipe);
-    pipeGroup.add(topPipe);
-    pipeGroup.layer = 0;
+  pipeGroup.add(topPipe);
+  pipeGroup.add(bottomPipe);
+  pipeGroup.layer = 0;
 }
 
-function drawScore(x,y,score,digitWidth, digitHeight){
-    scoreDigits.removeAll();
-    declare scoreStr = str(score);
-    let totalWidth = scoreStr.length * digitWidth;
+/* 
+Function to draw the scores 
+using sprite images
+*/
+function drawScore(x, y, score, digitWidth, digitHeight) {
 
-    //starting x coord
-    let startX = x-totalWidth/2;
-    for(i = 0; i < scoreStr.length; i++){
-        let digit = int(scoreStr[i]);
-        let xPos = startX + i * digitWidth;
-        let digitSprite = new scoreDigits.Sprite(xPos, y, digitWidth. digitHeight);
-        digitSprite.img = numberImages[digit];
-    }
+  // Clear old digit sprites
+  scoreDigits.removeAll();
+  // make it a string so we can get each digit indivisually rather than a value
+  let scoreStr = str(score);
+  // total width taken up by all digits
+  let totalWidth = scoreStr.length * digitWidth;
+  // starting x coordinates
+  let startX = x - totalWidth / 2;
 
-    function moveGroup(group, targetX, spacing){
-        let totalWidth = (group.length - 1) * spacing;
+  // loop through each digit
+  for (let i = 0; i < scoreStr.length; i++) {
+    // gets digit from the score string (e.g. "4" or "2")
+    let digit = int(scoreStr[i]); 
 
-        let startX = (targetX - totalWidth/2);
+    // x-position of this digit
+    let xPos = startX + i * digitWidth;
 
-        for(let i = 0; i < group.length; i++){
-            group[i].x = startX + i * spacing;
-        }
-    }
+    // create sprite the size of the digit image
+    let digitSprite = new scoreDigits.Sprite(xPos, y, digitWidth, digitHeight); 
+
+    //get the digit image from the array based on placement order which corresponds to the digit
+    digitSprite.img = numberImages[digit]; 
+  }
+
+  // call function to keep score centered on camera
+  moveGroup(scoreDigits, camera.x, 24); 
 }
+
+/* 
+Function to lock the group of sprites into a specific position
+*/
+function moveGroup(group, targetX, spacing) {
+  // E.g. 3 digits → 2 gaps → (3 - 1) * 24 = 48px
+  let totalWidth = (group.length -1) * spacing;
+
+  // Find Left-most X Position
+  // Shifts the starting point left, so the entire group becomes centered
+  let startX = (targetX - totalWidth/2);
+
+  // Place Each Sprite in the Group
+  for (let i = 0; i < group.length; i++) {
+    group[i].x = startX + i * spacing;
+  }
+}
+
+
+// < . . . previous code . . . >
+
+// // < . . . previous code . . . >
+// function draw() {
+//   // < . . . previous code . . . >
+
+//   if (startGame){
+//     // < . . . previous code inside startGame condition. . . >
+
+//     // < . . reference position . . .>
+//     // for (let pipe of pipeGroup){
+//     //   if (pipe.x < -50){
+//     //     pipe.remove();
+//     //   }
+//     // }
+
+//     // increase score if pipe passed
+//     for (let pipe of pipeGroup) {
+//       // center pos + half pipe width = right edge pos
+//       let pipeRightEdge = pipe.x + pipe.w / 2; 
+
+//       // center pos - half bird width = left edge pos
+//       let birdLeftEdge = bird.x - bird.w / 2; 
+
+//       // compare x-coordinates of player and pipes
+//       if (pipe.passed == false && pipeRightEdge < birdLeftEdge){
+//         pipe.passed = true;
+//         score++; 
+//       }
+//     }
+//   }
+// }
