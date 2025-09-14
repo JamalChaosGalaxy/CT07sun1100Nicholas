@@ -21,6 +21,7 @@ function draw(){
         dynamic_circle.collider = 'dynamic';
         dynamic_circle.bounciness = 10;
     }
+    
 
 }
 //set up canvas (800, 400)
