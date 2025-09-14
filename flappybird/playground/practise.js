@@ -3,6 +3,7 @@ let square, circle;
 let pipe;
 let dynamic_circle;
 let mouse_sprite;
+let pop_image;
 function setup(){
     new Canvas(800, 400);
 
