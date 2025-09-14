@@ -8,4 +8,6 @@
 //declare a var circle and create a circle sprite
 //x = 100, y= 350, D of your chooisng
 
-//declare 
+//declare a var pipe and create a new group
+
+//left click 
