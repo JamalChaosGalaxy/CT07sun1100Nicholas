@@ -12,4 +12,8 @@
 
 //left click create a dynamic circ;e add om bounciness
 
-//while loop 
+//while loop syntax and for loop syntax
+
+//create a sprite at
+
+//declare
