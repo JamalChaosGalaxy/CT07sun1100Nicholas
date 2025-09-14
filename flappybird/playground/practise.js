@@ -5,7 +5,7 @@ function setup(){
 }
 
 function draw(){
-
+    square = new Sprite()
 }
 //set up canvas (800, 400)
 
