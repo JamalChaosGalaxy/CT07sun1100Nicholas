@@ -1,4 +1,5 @@
-let 
+let fruitGroup;
+let fruitType
 let dojoBG;
 
 function preload(){
