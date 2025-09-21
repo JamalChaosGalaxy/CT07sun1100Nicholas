@@ -75,7 +75,7 @@ function setup() {
   scoreDigits = new Group();
   scoreDigits.collider = 'none';
   scoreDigits.layer = 1000;
-}
+}                         
 
 function draw() {
   image(bg, 0, 0, width, height);        
@@ -88,8 +88,7 @@ function draw() {
   }
 
   // if startGame flag is true, then run all the other code
-  if (startGame){
-    // new code to make bird dynamic only when game start
+  // new code to make bird dynamic only when game start
     bird.collider = "dynamic"; 
   // make the bird move "forward"
     bird.x += 2; // make the bird move forward
