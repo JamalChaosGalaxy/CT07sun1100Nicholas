@@ -5,9 +5,11 @@ let dojoBG;
 function preload(){
 
     let peach = {
-        whole:loadImage
+        whole:loadImage('assets/peachwhole.png')
     };
-    let watermelon; 
+    let watermelon = {
+        
+    }; 
 
     watermelon = loadImage('assets/watermelonwhole/png');
     peach = loadImage('assets/peachwhole.png');
