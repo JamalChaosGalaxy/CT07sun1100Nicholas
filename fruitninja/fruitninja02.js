@@ -9,9 +9,9 @@ function setup(){
     // set gravity to 10;
     world.gravity.y = 10;
 
-     let fruitGroup = new Group();
+    fruitGroup = new Group();
     
-    let fruittype = [];
+    fruittype = [];
 }
 
 function draw(){
