@@ -5,7 +5,7 @@ let dojoBG;
 function preload(){
 
     let peach = {
-        
+        whole:loadImage
     };
     let watermelon; 
 
