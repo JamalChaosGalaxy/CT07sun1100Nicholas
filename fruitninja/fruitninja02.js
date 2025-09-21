@@ -40,7 +40,7 @@ function spawnFruit(){
     fruit.image = fruitData.whole;
     //telling the program that it is going to be a random fruit form the array
     fruit.type = fruitData;
-    
+    //setting the game physics
     fruit.vel.y = random(-10, - 14);
     fruit.vel.x = random(-2, 2)
     fruit.friction = 0;
