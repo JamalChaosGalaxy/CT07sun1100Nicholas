@@ -37,5 +37,6 @@ function spawnFruit(){
     fruit.image = fruitData.whole;
     fruit.type = fruitData;
     fruit.vel.y
-    fruit.vel.
+    fruit.vel.x
+    fr
 }
