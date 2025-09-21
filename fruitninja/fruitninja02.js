@@ -38,8 +38,9 @@ function spawnFruit(){
     //basically loading the image adnt eh image is sored in the array and the key to the image values
     //is whole hence its fruitData.whole (arrayname.whichkey)
     fruit.image = fruitData.whole;
-    //telling 
+    //telling the program that it is going to be a random fruit form the array
     fruit.type = fruitData;
+    
     fruit.vel.y = random(-10, - 14);
     fruit.vel.x = random(-2, 2)
     fruit.friction = 0;
