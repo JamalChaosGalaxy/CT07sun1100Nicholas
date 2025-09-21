@@ -33,4 +33,5 @@ function spawnFruit(){
     //tell the program to randomly pick one fruit object
     let fruitData = random(fruitTypes);
     let randomX = random(300, 500);
+    let fruit = new fruit
 }
