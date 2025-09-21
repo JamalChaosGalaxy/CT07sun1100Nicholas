@@ -11,7 +11,7 @@ function setup(){
 
     fruitGroup = new Group();
     
-    fruittype = []
+    fruittype = [];
 }
 
 function draw(){
