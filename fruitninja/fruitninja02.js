@@ -35,7 +35,8 @@ function spawnFruit(){
     let randomX = random(300, 500);
     // create a fruit and stroing it in the group
     let fruit = new fruitGroup.Sprite(randomX, height+ 20, 40);
-    //basically loading 
+    //basically loading the image adnt eh image is sored in the array and the key to the image values
+    //is whole hence its 
     fruit.image = fruitData.whole;
     fruit.type = fruitData;
     fruit.vel.y = random(-10, - 14);
