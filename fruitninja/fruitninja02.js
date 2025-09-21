@@ -31,7 +31,9 @@ function draw(){
 
 function spawnFruit(){
     fruitTypes = [peach, watermelon];
-    
+    let peach = {
+        whole:loadImage('assets/peachwhole.png')
+    };
     //tell the program to randomly pick one fruit object
     let fruitData = random(fruitTypes);
     let randomX = random(300, 500);
