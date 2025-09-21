@@ -11,8 +11,6 @@ function preload(){
         whole:('assets/watermelonwhole/png')
     }; 
 
-    watermelon = loadImage('assets/watermelonwhole/png');
-    peach = loadImage('assets/peachwhole.png');
     dojoBG = loadImage('assets/dojobackground.png');
 }
 
