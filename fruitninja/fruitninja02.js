@@ -3,7 +3,8 @@ let fruitTypes = [];
 let dojoBG;
 
 function preload(){
-    watermelon = loadImage('assets/watermelonwhole/png')
+    watermelon = loadImage('assets/watermelonwhole/png');
+    
     dojoBG = loadImage('assets/dojobackground.png');
 }
 
