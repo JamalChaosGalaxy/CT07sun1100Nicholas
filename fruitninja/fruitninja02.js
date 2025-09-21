@@ -30,5 +30,6 @@ function draw(){
 }
 
 function spawnFruit(){
-    let fruitData = random(fruitTypes)
+    //tell the program to randomly pick one fruit object
+    let fruitData = random(fruitTypes);
 }
