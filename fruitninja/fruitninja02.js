@@ -10,7 +10,7 @@ function preload(){
     let watermelon = {
         whole:('assets/watermelonwhole/png')
     }; 
-
+    fruitTypes
     dojoBG = loadImage('assets/dojobackground.png');
 }
 
