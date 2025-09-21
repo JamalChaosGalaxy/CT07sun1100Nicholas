@@ -1,11 +1,11 @@
 let dojoBG;
 
 function preload(){
-    dojoBG = loadimage("assets/dojobackground.png");
+    dojoBG = loadimage('assets/dojobackground.png');
 }
 
 function setup(){
-    new Canvas(800, 600)
+    new Canvas(800, 600);
 }
 
 function draw(){
