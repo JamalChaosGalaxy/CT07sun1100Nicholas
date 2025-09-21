@@ -8,6 +8,8 @@ function setup(){
     new Canvas(800, 600);
     // set gravity to 10;
     world.gravity.y = 10;
+
+    fruit
 }
 
 function draw(){
