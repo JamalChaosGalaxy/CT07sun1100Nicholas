@@ -29,4 +29,6 @@ function draw(){
     image(dojoBG, 0, 0, width, height);
 }
 
-function spawnFruit()
+function spawnFruit(){
+    let fruitData
+}
