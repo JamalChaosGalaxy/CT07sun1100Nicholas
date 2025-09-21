@@ -33,6 +33,7 @@ function spawnFruit(){
     //tell the program to randomly pick one fruit object
     let fruitData = random(fruitTypes);
     let randomX = random(300, 500);
+    // create a fruit and stroing it in the group
     let fruit = new fruitGroup.Sprite(randomX, height+ 20, 40);
     fruit.image = fruitData.whole;
     fruit.type = fruitData;
