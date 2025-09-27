@@ -32,7 +32,9 @@ function draw(){
         spawnFruit();
     }
 
-    if(mouse.presseing)
+    if(mouse.pressing){
+        
+    }
 }
 
 function spawnFruit(){
