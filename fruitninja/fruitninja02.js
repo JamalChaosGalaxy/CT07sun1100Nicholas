@@ -89,6 +89,7 @@ function spawnFruit(){
 function splitFruit(x, y, fruitData){
     // left half 
     let left = new fruitHalves.Sprite(x-10, y, 40, 40);
+    left.img = fruitData
 
 
     // right half
