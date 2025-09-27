@@ -39,7 +39,11 @@ function draw(){
         trail.life = 10;
     }
 
-    sliceFruit()
+    sliceFruit();
+}
+
+function sliceFruit(){
+    
 }
 
 function spawnFruit(){
