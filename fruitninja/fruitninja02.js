@@ -88,6 +88,7 @@ function spawnFruit(){
 
 function splitFruit(x, y, fruitData){
     // left half 
+    let left = new Sprite()
 
     // right half
 }
