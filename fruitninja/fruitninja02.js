@@ -21,7 +21,6 @@ function setup(){
 
     fruitGroup = new Group();
 
-    fruitGroup = new Group();
     
     fruittype = [];
 }
