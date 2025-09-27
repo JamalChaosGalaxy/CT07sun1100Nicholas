@@ -101,6 +101,6 @@ function splitFruit(x, y, fruitData){
     right.img = fruitData.half1;
     right.vel.x = -3;
     right.vel.y = -3;
-    right.rotationSpeed = +5;
+    right.rotationSpeed = 5;
 
 }
