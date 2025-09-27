@@ -33,7 +33,7 @@ function draw(){
     }
     // handles my slicicng effect
     if(mouse.pressing()){
-        trall
+        trall = new Sprite(mouse.x, mouse.y)
     }
 }
 
