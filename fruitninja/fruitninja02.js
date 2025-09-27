@@ -36,7 +36,7 @@ function draw(){
         trall = new Sprite(mouse.x, mouse.y, 7);
         trall.collider = 'none';
         trall.color = "red";
-        
+        trall.life = 10;
     }
 }
 
