@@ -86,6 +86,6 @@ function spawnFruit(){
     fruit.friction = 0;
 }
 
-function splitFruit(){
-    
+function splitFruit(x, y, fruitData){
+
 }
