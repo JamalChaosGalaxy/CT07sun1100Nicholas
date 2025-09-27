@@ -35,7 +35,8 @@ function draw(){
     if(mouse.pressing()){
         trall = new Sprite(mouse.x, mouse.y, 7);
         trall.collider = 'none';
-        trall.color = Red;
+        trall.color = "red";
+        
     }
 }
 
