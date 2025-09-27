@@ -87,5 +87,5 @@ function spawnFruit(){
 }
 
 function splitFruit(x, y, fruitData){
-
+    
 }
