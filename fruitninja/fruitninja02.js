@@ -33,8 +33,8 @@ function draw(){
     }
     // handles my slicicng effect
     if(mouse.pressing()){
-        trall = new Sprite(mouse.x, mouse.y, 7);
-        trall.collider = 'none';
+        trail = new Sprite(mouse.x, mouse.y, 7);
+        trail.collider = 'none';
         trall.color = "red";
         trall.life = 10;
     }
