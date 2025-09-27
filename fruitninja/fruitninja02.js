@@ -2,28 +2,16 @@ let fruitGroup;
 let fruitTypes = [];
 let dojoBG;
 
-// function preload(){
-//     dojoBG = loadImage('assets/dojobackground.png');
-//     let peach = {
-//         whole: loadImage('assets/peachwhole.png')
-//     };
-//     let watermelon = {
-//         whole: loadImage('assets/watermelonwhole.png')
-//     }; 
-//     fruitTypes = [peach, watermelon];
-   
-// }
 function preload(){
-    dojoBG = loadImage("assets/dojobackground.png");
-    let peach = { 
-        whole: loadImage("assets/peachwhole.png")
+    dojoBG = loadImage('assets/dojobackground.png');
+    let peach = {
+        whole: loadImage('assets/peachwhole.png')
     };
     let watermelon = {
-        whole: loadImage("assets/watermelonwhole.png")
-    };
-
-    fruitTypes = [peach,watermelon];
-
+        whole: loadImage('assets/watermelonwhole.png')
+    }; 
+    fruitTypes = [peach, watermelon];
+   
 }
 
 function setup(){
