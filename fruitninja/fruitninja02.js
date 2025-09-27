@@ -93,10 +93,14 @@ function splitFruit(x, y, fruitData){
     left.vel.x = -3;
     left.vel.y = -3;
     left.rotationSpeed = -5;
-    
+
 
 
     // right half
     let right = new fruitHalves.Sprite(x+10, y, 40, 40);
-
+    left.img = fruitData.half1;
+    left.vel.x = -3;
+    left.vel.y = -3;
+    left.rotationSpeed = -5;
+    
 }
