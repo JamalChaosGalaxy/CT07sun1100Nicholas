@@ -30,7 +30,7 @@ function draw(){
     image(dojoBG, 0, 0, width, height);
     if (frameCount % 60 === 0){// % refers to the remainder so if framecount divided by 120, if the remainder is 0, theb I will call spawnfruit function
         spawnFruit();
-    };
+    }
 }
 
 function spawnFruit(){
