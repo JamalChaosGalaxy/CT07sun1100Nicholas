@@ -49,7 +49,7 @@ function sliceFruit(){
         }
     }
 
-    let d = dist(mouse)
+    let d = dist(mouse.x, mouse.y)
 }
 
 function spawnFruit(){
