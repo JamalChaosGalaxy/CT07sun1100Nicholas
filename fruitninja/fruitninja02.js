@@ -45,9 +45,11 @@ function draw(){
 function sliceFruit(){
     for(let fruit of fruitGroup){
         if(fruit.sliced){
-            
+            continue;
         }
     }
+
+    
 }
 
 function spawnFruit(){
