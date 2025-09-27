@@ -49,6 +49,6 @@ function spawnFruit(){
     fruit.type = fruitData;
     //setting the game physics the numbers can play around
     fruit.vel.y = random(-10, - 14);
-    fruit.vel.x = random(-2, 2)
+    fruit.vel.x = random(-2, 2);
     fruit.friction = 0;
 }
