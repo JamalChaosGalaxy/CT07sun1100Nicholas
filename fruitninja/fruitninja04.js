@@ -44,7 +44,7 @@ function draw(){
         trail.life = 10;
         sliceFruit();
     }
-    //trying to 
+    //trying to access the items in the group
     for(fruits of fruitGroup){
 
     }
