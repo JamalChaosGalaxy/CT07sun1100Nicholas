@@ -20,8 +20,8 @@ function preload(){
     }; 
     //store each fruit object into fruit Types array[]
     fruitTypes = [peach, watermelon];
-    sliceSound = loadSound["assets/fruit-ninja-combo.mp3"];
-    backgroundTrack = loadImage["assets/fruit-ninja-bgtrack.mp3"];
+    sliceSound = loadSound("assets/fruit-ninja-combo.mp3");
+    backgroundTrack = loadImage("assets/fruit-ninja-bgtrack.mp3");
 
    
 }
@@ -88,7 +88,7 @@ function draw(){
     textAlign(LEFT, TOP);
     text ("Score: " + score, 10, 10);
     text ("Missed Fruits: " + MissedFruits, 200, 10);
-    if(backgroundTrack.isPlaying()){
+    if(!backgroundTrack.isPlaying()){
         backgroundTrack.loop();
     }
 
