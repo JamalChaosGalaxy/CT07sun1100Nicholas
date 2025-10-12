@@ -40,6 +40,7 @@ function draw(){
         rect(0, 0, width, height);
         fill(225);
         textAlign(CENTER, CENTER);
+        textSize(48);
         text
     }
     if (frameCount % 60 === 0){// % refers to the remainder so if framecount divided by 120, if the remainder is 0, theb I will call spawnfruit function
