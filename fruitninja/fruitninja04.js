@@ -46,9 +46,9 @@ function draw(){
     }
     //trying to access the items in the group
     for(fruits of fruitGroup){
-if(fruits.y > height + 50){
-    
-}
+        if(fruits.y > height + 50){
+
+        }
     }
 
     stroke(158, 69, 69);
