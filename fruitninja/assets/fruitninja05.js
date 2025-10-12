@@ -17,7 +17,7 @@ function preload(){
         whole: loadImage('assets/watermelonwhole.png'),
         half1: loadImage('assets/watermelonhalf.png')
     }; 
-    //store each fruit obj
+    //store each fruit object into fruit Types array[]
     fruitTypes = [peach, watermelon];
    
 }
