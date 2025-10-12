@@ -37,7 +37,7 @@ function draw(){
 
     if(gameState === 'start'){
         fill(0, 100);
-        
+        rect(0, )
     }
     if (frameCount % 60 === 0){// % refers to the remainder so if framecount divided by 120, if the remainder is 0, theb I will call spawnfruit function
         spawnFruit();
