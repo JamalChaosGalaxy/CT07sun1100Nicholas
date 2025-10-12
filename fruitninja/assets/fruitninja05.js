@@ -104,6 +104,7 @@ function draw(){
         fill(255);
         text('Score: '+ score,width/2,height/2+30);
         text('Missed Fruits: '+ MissedFruits,width/2,height/2+30);
+        return;
     }
 }
 
