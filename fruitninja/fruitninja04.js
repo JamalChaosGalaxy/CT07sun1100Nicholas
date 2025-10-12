@@ -44,11 +44,16 @@ function draw(){
         trail.life = 10;
         sliceFruit();
     }
+
+
+    
     stroke(158, 69, 69);
     fill(255);
     textSize(24);
     textAlign(LEFT, TOP);
     text ("Score: " + score, 10, 10);
+
+
 
 }
 
