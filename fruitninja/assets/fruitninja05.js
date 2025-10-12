@@ -84,6 +84,7 @@ function draw(){
     }
     if(gameState >= gameDuration){
         gameState = 'gameOver';
+        return;
     }
 }
 
