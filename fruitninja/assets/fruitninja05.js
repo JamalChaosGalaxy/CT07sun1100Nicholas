@@ -102,7 +102,8 @@ function draw(){
         text('GAME OVER',width/2,height/2);
         textSize(24);
         fill(255);
-        text('Press SPACE or Click to Start',width/2,height/2+30);
+        text('Score: '+ score,width/2,height/2+30);
+        
     }
 }
 
