@@ -79,7 +79,7 @@ function draw(){
     textAlign(LEFT,TOP);
     text ('Score:' + score ,10,10);
     text('Missed:' + missFruits,200,10);
-     if(!backgroundTrack.isPlaying()){
+    if(backgroundTrack.isPlaying()){
         backgroundTrack.loop();
     }
 }
