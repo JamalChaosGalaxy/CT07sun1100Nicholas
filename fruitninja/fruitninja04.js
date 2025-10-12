@@ -71,9 +71,9 @@ function draw(){
             MissedFruits +=1;
             
         }
-        if(MissedFruits ==3){
-            noLoop();
-        }
+        // if(MissedFruits ==3){
+        //     noLoop();
+        // }
     }
 
     stroke(158, 69, 69);
@@ -99,6 +99,7 @@ function sliceFruit(){
             const fx = fruit.x;
             const fy = fruit.y;
             fruit.remove();
+            sliceSound
             splitFruit(fx, fy, fruit.type);
             score +=1;
             break;
