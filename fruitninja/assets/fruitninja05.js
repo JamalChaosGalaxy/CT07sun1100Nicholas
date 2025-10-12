@@ -6,7 +6,7 @@ let score = 0;
 let MissedFruits = 0;
 let gameState = 'start';
 let sliceSound;
-let 
+let backgroundTrack;
 
 function preload(){
     dojoBG = loadImage('assets/dojobackground.png');
@@ -21,6 +21,7 @@ function preload(){
     //store each fruit object into fruit Types array[]
     fruitTypes = [peach, watermelon];
     sliceSound = loadSound["assets/fruit-ninja-combo.mp3"];
+    backgroundTrack = loadImage
 
    
 }
