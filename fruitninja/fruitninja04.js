@@ -3,7 +3,7 @@ let fruitTypes = [];
 let dojoBG;
 let fruitHalves;
 let score = 0;
-let MissedF
+let MissedFruits = 0;
 
 function preload(){
     dojoBG = loadImage('assets/dojobackground.png');
