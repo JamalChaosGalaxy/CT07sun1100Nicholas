@@ -88,7 +88,7 @@ function draw(){
         backgroundTrack.loop();
     }
     gameTimer = floor((millis().gameStartTime)/1000);
-    text('Time:' + (gameDuration-gameTimer))
+    text('Time:' + (gameDuration-gameTimer), 400, 100);
     if(gameState >= gameDuration){
         gameState = 'gameOver';
         return;
