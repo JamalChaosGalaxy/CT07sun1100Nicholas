@@ -2,6 +2,7 @@ let fruitGroup;
 let fruitTypes = [];
 let dojoBG;
 let fruitHalves;
+let score = 0;
 
 function preload(){
     dojoBG = loadImage('assets/dojobackground.png');
@@ -38,11 +39,16 @@ function draw(){
     if(mouse.pressing()){
         trail = new Sprite(mouse.x, mouse.y, 10);
         trail.collider = 'none';
-        trail.color = "red";
+        trail.color = "PINK";
         trail.life = 10;
+        sliceFruit();
     }
+    stroke(158, 69, 69);
+    fill(255);
+    textSize(24);
+    textAlign(LEFT, TOP);
+    text ("Score: " + score, 10, 10);
 
-    sliceFruit();
 }
 
 function sliceFruit(){
@@ -60,6 +66,7 @@ function sliceFruit(){
             const fy = fruit.y;
             fruit.remove();
             splitFruit(fx, fy, fruit.type);
+            score +=1;
             break;
         }
     }
