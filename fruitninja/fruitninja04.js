@@ -58,7 +58,7 @@ function draw(){
     textSize(24);
     textAlign(LEFT, TOP);
     text ("Score: " + score, 10, 10);
-    text ("Missed Fruits: " + MissedFruits, 200, 10)
+    text ("Missed Fruits: " + MissedFruits, 200, 10);
 
 }
 
