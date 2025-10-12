@@ -99,7 +99,7 @@ function draw(){
         fill(255);
         textAlign(CENTER,CENTER);
         textSize(48);
-        text('Fruit Ninja',width/2,height/2);
+        text('GAME OVER',width/2,height/2);
         textSize(24);
         text('Press SPACE or Click to Start',width/2,height/2+30);
         return;
