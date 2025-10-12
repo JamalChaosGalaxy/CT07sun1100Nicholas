@@ -42,6 +42,7 @@ function draw(){
            missFruits =0;
            fruitGroup.removeAll();
            fruitHalves.removeAll();
+           
     }
     if(gameState === 'start'){
         fill(0,180);
