@@ -95,7 +95,8 @@ function draw(){
     }
     if(gameState === 'gameover'){
         fill(0,100);
-        rect(0,0, width, height)
+        rect(0,0, width, height);
+        
     }
 }
 
