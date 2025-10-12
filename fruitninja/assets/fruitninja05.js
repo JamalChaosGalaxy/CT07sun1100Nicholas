@@ -93,6 +93,9 @@ function draw(){
         gameState = 'gameOver';
         return;
     }
+    if(gameState === 'gameover'){
+        fill
+    }
 }
 
 function spawnFruit(){
