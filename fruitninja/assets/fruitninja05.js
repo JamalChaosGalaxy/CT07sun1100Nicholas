@@ -88,7 +88,7 @@ function draw(){
     textAlign(LEFT, TOP);
     text ("Score: " + score, 10, 10);
     text ("Missed Fruits: " + MissedFruits, 200, 10);
-    if(backgroundTrack.playing){
+    if(backgroundTrack.isPlaying()){
         backgroundTrack.loop();
     }
 
