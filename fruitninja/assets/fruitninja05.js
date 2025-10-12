@@ -7,7 +7,8 @@ let missFruits =0;
 let gameState= 'start';
 let sliceSound;
 let backgroundTrack;
-let gameStartTime
+let gameStartTime = 0;
+
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
     //declare peach 
