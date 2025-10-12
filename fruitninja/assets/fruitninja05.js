@@ -83,7 +83,7 @@ function draw(){
         backgroundTrack.loop();
     }
     if(gameState >= gameDuration){
-        
+        gameState = 'gameOver';
     }
 }
 
