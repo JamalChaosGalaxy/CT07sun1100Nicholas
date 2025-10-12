@@ -20,7 +20,7 @@ function preload(){
     //store each fruit object into fruit Types array[]
     fruitTypes = [peach, watermelon];
     sliceSound = loadSound["assets/fruit-ninja-combo.mp3"];
-    
+
    
 }
 
@@ -103,6 +103,7 @@ function sliceFruit(){
             const fx = fruit.x;
             const fy = fruit.y;
             fruit.remove();
+            sliceFruit
             splitFruit(fx, fy, fruit.type);
             score +=1;
             break;
