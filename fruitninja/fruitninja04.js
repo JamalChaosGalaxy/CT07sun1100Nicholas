@@ -51,6 +51,9 @@ function draw(){
             MissedFruits +=1;
             
         }
+        if(MissedFruits ==3){
+            
+        }
     }
 
     stroke(158, 69, 69);
