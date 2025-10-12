@@ -19,6 +19,7 @@ function preload(){
     }; 
     //store each fruit object into fruit Types array[]
     fruitTypes = [peach, watermelon];
+    sliceSound = 
    
 }
 
