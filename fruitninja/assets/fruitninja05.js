@@ -82,6 +82,9 @@ function draw(){
     if(backgroundTrack.isPlaying()){
         backgroundTrack.loop();
     }
+    if(gameState >= gameDuration){
+        
+    }
 }
 
 function spawnFruit(){
