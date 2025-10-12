@@ -52,7 +52,7 @@ function draw(){
             
         }
         if(MissedFruits ==3){
-            
+            noLoop();
         }
     }
 
