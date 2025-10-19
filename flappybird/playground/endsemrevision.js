@@ -58,4 +58,5 @@ function draw(){
 //how to add a new item into an array
 
 // array push
-// setup 
+// setup {console.log("hi")}
+// 
