@@ -28,7 +28,7 @@ function draw(){
     image(background, 0, 0, width, height);
 
      
-    if(kb.presses('') ){
+    if(mouse.presses('') ){
         bird.vel.y = -5;
         bird.sleeping = false;
     }
