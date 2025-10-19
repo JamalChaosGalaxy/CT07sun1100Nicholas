@@ -4,7 +4,7 @@ function preload(){
 
 function setup(){
     new Canvas(500, 700);
-    square = new S
+    square = new Sprite()
 }
 
 function draw(){
