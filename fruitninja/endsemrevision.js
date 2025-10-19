@@ -1,6 +1,6 @@
 let square;
 let background;
-
+let squarethatcanfly;
 function preload(){
     background = loadImage('assets/background-day.png');
     squareImg = loadImage('assets/redbird-midflap.png');
