@@ -47,4 +47,5 @@ function draw(){
 // array
 // let xxx = [item1, item2];
 
-//when o gove you
+//when o gove you a code you must need to know the expected output
+// 
