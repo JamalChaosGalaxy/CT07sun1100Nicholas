@@ -48,4 +48,8 @@ function draw(){
 // let xxx = [item1, item2];
 
 //when o gove you a code you must need to know the expected output
-// etc given an array and i run a for loop, u need to tell me whats the output
+// etc given an array and i run a for loop, u need to tell me whats the output and what will be drawn on the canvas
+
+// canvas coordinates (500, 700)
+// top left(0,0)
+//top 
