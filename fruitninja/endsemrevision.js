@@ -1,6 +1,6 @@
 function preload(){
     background = loadImage("assets/background-day.png");
-    square 
+    squareImg = loadImage("assets/redbird-midflap")
 }
 
 function setup(){
