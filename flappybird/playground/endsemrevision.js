@@ -67,4 +67,4 @@ function draw(){
 
 //he bye bye bye bye bye
 
-// how to access array value
+// how to access array value array(a, b, c)
