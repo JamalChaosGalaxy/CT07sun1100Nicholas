@@ -21,7 +21,7 @@ function setup(){
     squarethatcanfly.y = 150;
     squarethatcanfly.height = 10;
     squarethatcanfly.width = 10;
-    squarethatcanfly.img = squareImg;
+    squarethatcanfly
     squarethatcanfly.collider = "static";
 }
 
