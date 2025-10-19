@@ -44,4 +44,7 @@ function draw(){
 }
 
 // things to review
-// 
+// array
+// let xxx = [item1, item2];
+
+//when o gove you
