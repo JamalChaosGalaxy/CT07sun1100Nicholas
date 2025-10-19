@@ -7,6 +7,8 @@ function preload(){
 }
 
 function setup(){
+
+    world.gravity.y = 10;
     new Canvas(500, 700);
     square = new Sprite()
     square.x = 50;
