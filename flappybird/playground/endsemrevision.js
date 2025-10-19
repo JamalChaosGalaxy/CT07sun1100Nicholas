@@ -64,3 +64,5 @@ function draw(){
 // lets say this runs for 5 frames what is printed
 
 //hi will always be printed first and once only
+
+//he bye bye bye bye bye
