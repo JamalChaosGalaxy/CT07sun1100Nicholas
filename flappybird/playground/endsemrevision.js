@@ -69,4 +69,5 @@ function draw(){
 
 // how to access array value array(a, b, c)
 //array[1]
-// if pos gravity fly down neg gravity fly 
+// if pos gravity fly down neg gravity fly up
+// why do we use group() w
