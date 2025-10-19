@@ -10,6 +10,7 @@ function setup(){
     square.y = 50;
     square.height = 10;
     square.width = 10;
+    square.img = sqar
 }
 
 function draw(){
