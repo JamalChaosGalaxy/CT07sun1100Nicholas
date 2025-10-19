@@ -11,6 +11,7 @@ function setup(){
     square.height = 10;
     square.width = 10;
     square.img = squareImg;
+    floor.collider = "static";
 }
 
 function draw(){
