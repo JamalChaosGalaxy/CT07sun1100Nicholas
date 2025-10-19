@@ -10,7 +10,7 @@ function setup(){
 
     new Canvas(500, 700);
     world.gravity.y = 10;
-    square = new Sprite(width/2, height/2, )
+    square = new Sprite(width/2, height/2, width, height);
     square.x = 50;
     square.y = 50;
     square.height = 10;
