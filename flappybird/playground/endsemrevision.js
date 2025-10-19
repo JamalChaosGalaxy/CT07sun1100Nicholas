@@ -54,4 +54,4 @@ function draw(){
 // top left(0,0)
 //top right (500, 0)
 
-what doe spreload actually od 
+//what does preload actually do 
