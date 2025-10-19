@@ -30,7 +30,7 @@ function draw(){
      
     if(mouse.presses('') ){
         squarethatcanfly.vel.y = -5;
-        bd.sleeping = false;
-    
+        squarethatcanfly.sleeping = false;
+    }
 
 }
