@@ -66,3 +66,5 @@ function draw(){
 //hi will always be printed first and once only
 
 //he bye bye bye bye bye
+
+// how to access array value
