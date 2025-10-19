@@ -15,6 +15,14 @@ function setup(){
     square.width = 10;
     square.img = squareImg;
     floor.collider = "static";
+
+    squarew = new Sprite()
+    square.x = 50;
+    square.y = 50;
+    square.height = 10;
+    square.width = 10;
+    square.img = squareImg;
+    floor.collider = "static";
 }
 
 function draw(){
