@@ -21,10 +21,11 @@ function setup(){
     squarethatcanfly.y = 150;
     squarethatcanfly.height = 10;
     squarethatcanfly.width = 10;
-    squarethatcanfly
     squarethatcanfly.collider = "static";
 }
 
 function draw(){
     image(background, 0, 0, width, height);
+
+    
 }
