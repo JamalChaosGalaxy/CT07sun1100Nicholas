@@ -42,3 +42,6 @@ function draw(){
     }
 
 }
+
+// things to review
+// 
