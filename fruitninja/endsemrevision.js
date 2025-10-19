@@ -7,5 +7,5 @@ function setup(){
 }
 
 function draw(){
-    Image(background, 0, 0, width, height)
+    Image(background, 0, 0, width, height);
 }
