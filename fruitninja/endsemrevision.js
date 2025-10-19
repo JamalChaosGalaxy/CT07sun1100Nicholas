@@ -16,14 +16,14 @@ function setup(){
     square.height = 10;
     square.width = 10;
     square.img = squareImg;
-    square.collider = "none";
+    square.collider = "static";
 
     squarethatcanfly = new Sprite()
     squarethatcanfly.x = 150;
     squarethatcanfly.y = 150;
     squarethatcanfly.height = 10;
     squarethatcanfly.width = 10;
-    squarethatcanfly.collider = "static";
+    squarethatcanfly.collider = "dynamic";
     squarethatcanfly.bounciness = 10;
 }
 
