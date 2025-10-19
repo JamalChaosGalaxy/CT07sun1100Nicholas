@@ -1,6 +1,6 @@
 function preload(){
     background = loadImage("assets/background-day.png");
-    
+    square 
 }
 
 function setup(){
