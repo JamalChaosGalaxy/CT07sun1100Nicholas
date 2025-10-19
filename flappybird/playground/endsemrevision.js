@@ -68,3 +68,5 @@ function draw(){
 //he bye bye bye bye bye
 
 // how to access array value array(a, b, c)
+//array[1]
+// if pos
