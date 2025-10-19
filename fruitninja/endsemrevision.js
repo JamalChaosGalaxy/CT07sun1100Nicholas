@@ -28,7 +28,7 @@ function draw(){
     image(background, 0, 0, width, height);
 
      
-    if(mouse.presses('') || kb.pr){
+    if(mouse.presses('') || kb.presses('')){
         squarethatcanfly.vel.y = -5;
         squarethatcanfly.sleeping = false;
     }
