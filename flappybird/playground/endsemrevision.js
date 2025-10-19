@@ -9,7 +9,7 @@ function preload(){
 function setup(){
 
     new Canvas(500, 700);
-    square = new
+    square = new Sprite(width/2, height/2)
 
     // world.gravity.y = 10;
     // new Canvas(500, 700);
