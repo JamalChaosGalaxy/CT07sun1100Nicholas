@@ -29,8 +29,8 @@ function draw(){
 
      
     if(mouse.presses('') ){
-        bird.vel.y = -5;
-        bird.sleeping = false;
-    }
+        squarethatcanfly.vel.y = -5;
+        bd.sleeping = false;
+    
 
 }
