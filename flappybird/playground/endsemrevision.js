@@ -62,3 +62,5 @@ function draw(){
 // draw {console.log("bye")}
 
 // lets say this runs for 5 frames what is printed
+
+//hi will always be printed first and once only
