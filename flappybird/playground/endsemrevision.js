@@ -3,7 +3,7 @@ let background;
 let squar1;
 function preload(){
     background = loadImage('assets/background-day.png');
-    squareImg = loadImage('assets/redbird-midflap.png');
+    square1 = loadImage('assets/redbird-midflap.png');
 }
 
 function setup(){
