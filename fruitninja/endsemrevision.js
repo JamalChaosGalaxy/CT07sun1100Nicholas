@@ -22,7 +22,7 @@ function setup(){
     squarethatcanfly.height = 10;
     squarethatcanfly.width = 10;
     squarethatcanfly.img = squareImg;
-    floor.collider = "static";
+    squarethatcanfly.collider = "static";
 }
 
 function draw(){
