@@ -17,8 +17,8 @@ function setup(){
     square.collider = "none";
 
     squarethatcanfly = new Sprite()
-    squarethatcanfly.x = 90;
-    squarethatcanfly.y = 50;
+    squarethatcanfly.x = 150;
+    squarethatcanfly.y = 150;
     squarethatcanfly.height = 10;
     squarethatcanfly.width = 10;
     squarethatcanfly.img = squareImg;
