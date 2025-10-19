@@ -24,7 +24,7 @@ function setup(){
     squarethatcanfly.height = 10;
     squarethatcanfly.width = 10;
     squarethatcanfly.collider = "static";
-    square
+    squarethatcanfly.bounciness = 10;
 }
 
 function draw(){
