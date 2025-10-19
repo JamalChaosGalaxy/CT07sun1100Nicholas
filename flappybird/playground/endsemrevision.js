@@ -38,8 +38,7 @@ function draw(){
 
      
     if(mouse.presses('') || kb.presses('space')){
-        squarethatcanfly.vel.y = -5;
-        squarethatcanfly.sleeping = false;
+        square.vel.y = -5;
     }
 
 }
