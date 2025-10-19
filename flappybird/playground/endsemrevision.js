@@ -59,4 +59,6 @@ function draw(){
 
 // array push
 // setup {console.log("hi")}
-// 
+// draw {console.log("bye")}
+
+// lets say this runs for 5 frames what is printed
