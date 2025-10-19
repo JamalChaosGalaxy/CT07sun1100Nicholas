@@ -48,4 +48,4 @@ function draw(){
 // let xxx = [item1, item2];
 
 //when o gove you a code you must need to know the expected output
-// 
+// etc given an array and 
