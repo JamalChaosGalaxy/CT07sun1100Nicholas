@@ -70,4 +70,7 @@ function draw(){
 // how to access array value array(a, b, c)
 //array[1]
 // if pos gravity fly down neg gravity fly up
-// why do we use group() w
+// why do we use group() what can you do with group
+
+// whats the key word for collision
+// collides
