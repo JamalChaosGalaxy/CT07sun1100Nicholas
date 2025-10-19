@@ -1,5 +1,5 @@
 function preload(){
-    background = loadImage("")
+    background = loadImage("assets/background")
 }
 
 function setup(){
