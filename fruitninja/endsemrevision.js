@@ -14,10 +14,10 @@ function setup(){
     square.height = 10;
     square.width = 10;
     square.img = squareImg;
-    square.collider = "static";
+    square.collider = "none";
 
     squarethatcanfly = new Sprite()
-    squarethatcanfly.x = 50;
+    squarethatcanfly.x = 90;
     squarethatcanfly.y = 50;
     squarethatcanfly.height = 10;
     squarethatcanfly.width = 10;
