@@ -7,7 +7,8 @@ function setup(){
     square = new Sprite()
     square.x = 50;
     square.y = 50;
-    square.height = 
+    square.height = 10;
+    square.width = 10;
 }
 
 function draw(){
