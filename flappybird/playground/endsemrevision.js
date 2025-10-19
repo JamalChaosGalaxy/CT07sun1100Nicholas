@@ -55,3 +55,6 @@ function draw(){
 //top right (500, 0)
 
 //what does preload actually do 
+//how to add a new item into an array
+
+// array push
