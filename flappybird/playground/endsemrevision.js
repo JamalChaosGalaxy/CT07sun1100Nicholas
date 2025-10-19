@@ -52,4 +52,6 @@ function draw(){
 
 // canvas coordinates (500, 700)
 // top left(0,0)
-//top 
+//top right (500, 0)
+
+what doe spreload actually od 
