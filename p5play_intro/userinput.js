@@ -11,5 +11,6 @@ function setup(){
 function draw(){
     background(220);
     fill(0);
-    textSize()
+    textSize(20);
+    textAlign()
 }
