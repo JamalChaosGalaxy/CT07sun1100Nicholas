@@ -38,6 +38,8 @@ function draw(){
     text(userName, width/2, 180);
     text(userAge, width/2, 210);
     textSize(15);
+
+    fill(0);
     text(textone, 180, 300);
     text(texttwo, 180, 320);
     text(textthree, 180, 340)
