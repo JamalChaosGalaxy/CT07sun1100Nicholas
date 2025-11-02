@@ -7,6 +7,8 @@ function setup(){
     // create Text box to use
     inputText = createInput();
     inputText.position(690, 450);
+    inputText2 = createInput();
+    inputText2.position(690, 450);
     inputText.input(updateText);
 }
 
