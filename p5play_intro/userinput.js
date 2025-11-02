@@ -9,7 +9,7 @@ function setup(){
     inputText.position(690, 450);
     inputText2 = createInput();
     inputText2.position(690, 470);
-    inputText.input(updateText);
+    inputText.input(updateText2);
 }
 
 function draw(){
@@ -23,5 +23,4 @@ function draw(){
 
 function updateText(){
     userName = this.value();
-    userAge = this.value();
 }
