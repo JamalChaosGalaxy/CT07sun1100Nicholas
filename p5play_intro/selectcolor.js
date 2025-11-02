@@ -6,6 +6,7 @@ let textone = "Your Name:";
 let texttwo = "Your Age:";
 let textthree = "Colour";
 let colorpicker;
+let textpicker;
 function setup(){
     createCanvas(600, 400);
     
@@ -20,7 +21,7 @@ function setup(){
     colorpicker = createColorPicker("orange");
     colorpicker.position(690, 490);
     textpicker = createColorPicker("black");
-    colorpicker.position(690, 510);
+    textpicker.position(690, 510);
 
 
 }
