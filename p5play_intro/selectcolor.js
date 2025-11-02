@@ -5,6 +5,7 @@ let userAge = "Age";
 let textone = "Your Name:";
 let texttwo = "Your Age:";
 let textthree = "Colour";
+let textfour = ""
 let colorpicker;
 let textpicker;
 let rectpicker;
