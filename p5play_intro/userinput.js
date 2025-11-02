@@ -2,6 +2,8 @@ let inputText;
 let inputText2;
 let userName = "Your Name";
 let userAge = "Age";
+let textone;
+
 function setup(){
     createCanvas(600, 400);
     // create Text box to use
@@ -11,7 +13,7 @@ function setup(){
     inputText2 = createInput();
     inputText2.position(690, 470);
     inputText2.input(updateText2);
-    
+
 }
 
 function draw(){
