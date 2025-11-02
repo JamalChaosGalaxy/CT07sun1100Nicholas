@@ -13,5 +13,5 @@ function draw(){
     fill(0);
     textSize(20);
     textAlign(CENTER, CENTER);
-    text()
+    text(userText, width/2, 180)
 }
