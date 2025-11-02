@@ -36,6 +36,7 @@ function draw(){
     textSize(15);
     text(textone, 180, 300);
     text(texttwo, 180, 320);
+    text(textthree, 180, 340)
 }
 
 function updateText(){
