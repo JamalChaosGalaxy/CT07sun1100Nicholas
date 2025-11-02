@@ -4,7 +4,8 @@ function setup(){
     createCanvas(600, 400);
     // create Text box to use
     inputText = createInput();
-    inputText.position = 
+    inputText.position(200, height - 80);
+    inputText
 }
 
 function draw(){
