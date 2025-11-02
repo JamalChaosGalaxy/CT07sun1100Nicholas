@@ -1,4 +1,5 @@
 let inputText;
+let inputText2;
 let userName = "Your Name";
 let userAge = "Age";
 function setup(){
