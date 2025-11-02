@@ -4,7 +4,7 @@ let userName = "Your Name";
 let userAge = "Age";
 let textone = "Your Name:";
 let texttwo = "Your Age:";
-let textthree = ""
+let textthree = "Colour";
 let colorpicker;
 function setup(){
     createCanvas(600, 400);
