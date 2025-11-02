@@ -7,7 +7,7 @@ let texttwo = "Your Age:";
 let textthree = "Colour";
 let colorpicker;
 let textpicker;
-let rect
+let rectpicker;
 function setup(){
     createCanvas(600, 400);
     
@@ -24,7 +24,7 @@ function setup(){
     textpicker = createColorPicker("black");
     textpicker.position(690, 510);
     rectpicker = createColorPicker("black");
-    recttpicker.position(690, 530);
+    rectpicker.position(690, 530);
 
 
 }
