@@ -33,6 +33,7 @@ function draw(){
     rect(50, 100, 500, 160, 20);
     fill(colorpicker.value());
     textSize(20);
+    fill(0);
     textAlign(CENTER, CENTER);
     text(userName, width/2, 180);
     text(userAge, width/2, 210);
