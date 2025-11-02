@@ -47,7 +47,9 @@ function draw(){
     fill(0);
     text(textone, 180, 300);
     text(texttwo, 180, 320);
-    text(textthree, 180, 340)
+    text(textthree, 180, 340);
+    text(textfour, 180, 360);
+    text(textfive, 160, 380);
 }
 
 function updateText(){
