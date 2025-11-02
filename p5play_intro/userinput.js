@@ -2,8 +2,8 @@ let inputText;
 let inputText2;
 let userName = "Your Name";
 let userAge = "Age";
-let textone = ;
-let texttwo;
+let textone = "Your Name";
+let texttwo = "Your Age";
 function setup(){
     createCanvas(600, 400);
     // create Text box to use
