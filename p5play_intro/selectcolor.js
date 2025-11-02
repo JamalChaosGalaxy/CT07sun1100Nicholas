@@ -8,7 +8,8 @@ let colorpicker;
 function setup(){
     createCanvas(600, 400);
     //create colour picker
-    colorPick = createColorPicker("p")
+    colorPick = createColorPicker("orange");
+    colorpicker = 
     // create Text box to use
     inputText = createInput();
     inputText.position(690, 450);
