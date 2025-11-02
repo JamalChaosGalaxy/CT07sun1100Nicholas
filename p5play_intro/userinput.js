@@ -23,8 +23,8 @@ function draw(){
     textAlign(CENTER, CENTER);
     text(userName, width/2, 180);
     text(userAge, width/2, 210);
-    textSize(10);
-    text(textone, 180, 280);
+    textSize(15);
+    text(textone, 180, 300);
     text(texttwo, 180, 320);
 }
 
