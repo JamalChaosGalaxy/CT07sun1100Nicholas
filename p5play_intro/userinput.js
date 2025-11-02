@@ -5,7 +5,7 @@ function setup(){
     // create Text box to use
     inputText = createInput();
     inputText.position(200, height - 80);
-    inputText
+    inputText.input(updateText);
 }
 
 function draw(){
