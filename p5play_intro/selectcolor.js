@@ -4,7 +4,7 @@ let userName = "Your Name";
 let userAge = "Age";
 let textone = "Your Name:";
 let texttwo = "Your Age:";
-let colorpicker
+let colorpicker;
 function setup(){
     createCanvas(600, 400);
     // create Text box to use
