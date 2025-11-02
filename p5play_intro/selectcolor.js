@@ -23,7 +23,7 @@ function setup(){
     textpicker = createColorPicker("black");
     textpicker.position(690, 510);
     rectpicker = createColorPicker("black");
-    textpicker.position(690, 510);
+    recttpicker.position(690, 530);
 
 
 }
