@@ -7,9 +7,7 @@ let texttwo = "Your Age:";
 let colorpicker;
 function setup(){
     createCanvas(600, 400);
-    //create colour picker
-    colorPick = createColorPicker("orange");
-    colorpicker.position(300, height+240);
+    
     // create Text box to use
     inputText = createInput();
     inputText.position(690, 450);
@@ -17,6 +15,9 @@ function setup(){
     inputText2 = createInput();
     inputText2.position(690, 470);
     inputText2.input(updateText2);
+    //create colour picker
+    colorPick = createColorPicker("orange");
+    colorpicker.position(300, height+240);
 
 }
 
