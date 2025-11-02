@@ -24,7 +24,8 @@ function draw(){
     text(userName, width/2, 180);
     text(userAge, width/2, 210);
     textSize(10);
-    text(textone, 660, 470)
+    text(textone, 660, 450);
+    text(texttwo, )
 }
 
 function updateText(){
