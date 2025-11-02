@@ -1,5 +1,5 @@
 let inputText;
-let userText = "Your Text Here";
+let userText = "Your Name";
 function setup(){
     createCanvas(600, 400);
     // create Text box to use
