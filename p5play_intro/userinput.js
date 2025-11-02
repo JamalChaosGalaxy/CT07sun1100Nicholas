@@ -7,9 +7,10 @@ function setup(){
     // create Text box to use
     inputText = createInput();
     inputText.position(690, 450);
+    inputText.input(updateText);
     inputText2 = createInput();
     inputText2.position(690, 470);
-    inputText.input(updateText);
+    inputText.input(updateText2);
 }
 
 function draw(){
