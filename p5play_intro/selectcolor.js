@@ -20,7 +20,7 @@ function setup(){
     colorpicker = createColorPicker("orange");
     colorpicker.position(300, height+240);
 
-    nametag = new Sprite(50, 100, 500, 160, 20)
+    rect(50, 100, 500, 160, 20);
 
 }
 
