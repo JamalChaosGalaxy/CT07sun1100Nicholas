@@ -8,7 +8,7 @@ function setup(){
     inputText = createInput();
     inputText.position(690, 450);
     inputText2 = createInput();
-    inputText2.position(690, 450);
+    inputText2.position(690, 550);
     inputText.input(updateText);
 }
 
