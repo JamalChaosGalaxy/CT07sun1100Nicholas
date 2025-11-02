@@ -19,7 +19,7 @@ function setup(){
     //create colour picker
     colorpicker = createColorPicker("orange");
     colorpicker.position(690, 490);
-    colorpicker = createColorPicker("orange");
+    textpicker = createColorPicker("black");
     colorpicker.position(690, 510);
 
 
