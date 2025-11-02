@@ -20,7 +20,6 @@ function setup(){
     colorpicker = createColorPicker("orange");
     colorpicker.position(300, height+240);
 
-    rect(50, 100, 500, 160, 20);
 
 }
 
@@ -34,6 +33,7 @@ function draw(){
     textSize(15);
     text(textone, 180, 300);
     text(texttwo, 180, 320);
+    rect(50, 100, 500, 160, 20);
 }
 
 function updateText(){
