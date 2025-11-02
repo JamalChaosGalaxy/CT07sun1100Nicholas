@@ -5,7 +5,6 @@ let userAge = "Age";
 let textone = "Your Name:";
 let texttwo = "Your Age:";
 let colorpicker;
-let nametag;
 function setup(){
     createCanvas(600, 400);
     
