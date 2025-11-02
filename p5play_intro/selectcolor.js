@@ -7,6 +7,7 @@ let texttwo = "Your Age:";
 let textthree = "Colour";
 let colorpicker;
 let textpicker;
+let rect
 function setup(){
     createCanvas(600, 400);
     
@@ -31,7 +32,7 @@ function setup(){
 function draw(){
     
     background(colorpicker.value());
-    fill(225);
+    fill(rectpicker.value());
     rect(50, 100, 500, 160, 20);
     fill(textpicker.value());
     textSize(20);
