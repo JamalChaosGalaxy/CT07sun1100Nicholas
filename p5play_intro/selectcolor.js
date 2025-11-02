@@ -7,6 +7,8 @@ let texttwo = "Your Age:";
 let colorpicker;
 function setup(){
     createCanvas(600, 400);
+    //create colour picker
+    colorPick
     // create Text box to use
     inputText = createInput();
     inputText.position(690, 450);
