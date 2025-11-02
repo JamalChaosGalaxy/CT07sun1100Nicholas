@@ -4,7 +4,7 @@ function setup(){
     createCanvas(600, 400);
     // create Text box to use
     inputText = createInput();
-    inputText.position(650, 450);
+    inputText.position(690, 450);
     inputText.input(updateText);
 }
 
