@@ -10,7 +10,7 @@ function setup(){
     inputText.input(updateText);
     inputText2 = createInput();
     inputText2.position(690, 470);
-    inputText.input(updateText2);
+    inputText2.input(updateText2);
 }
 
 function draw(){
