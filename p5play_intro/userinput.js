@@ -13,9 +13,9 @@ function draw(){
     fill(0);
     textSize(20);
     textAlign(CENTER, CENTER);
-    text(userText, width/2, 180);
+    text(userName, width/2, 180);
 }
 
 function updateText(){
-    userText = this.value();
+    userName = this.value();
 }
