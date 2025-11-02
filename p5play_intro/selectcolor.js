@@ -17,13 +17,13 @@ function setup(){
     inputText2.input(updateText2);
     //create colour picker
     colorpicker = createColorPicker("orange");
-    colorpicker.position(300, height+200);
+    colorpicker.position(300, height+240);
 
 
 }
 
 function draw(){
-     fill(225);
+    fill(225);
     background(colorpicker.value());
     fill(0);
     textSize(20);
