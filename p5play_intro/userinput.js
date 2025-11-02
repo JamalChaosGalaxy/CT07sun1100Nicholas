@@ -2,7 +2,7 @@ let inputText;
 let inputText2;
 let userName = "Your Name";
 let userAge = "Age";
-let textone;
+let textone = ;
 let texttwo;
 function setup(){
     createCanvas(600, 400);
