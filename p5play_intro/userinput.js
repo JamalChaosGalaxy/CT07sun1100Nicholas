@@ -3,7 +3,7 @@ let inputText2;
 let userName = "Your Name";
 let userAge = "Age";
 let textone;
-
+let texttwo;
 function setup(){
     createCanvas(600, 400);
     // create Text box to use
@@ -23,6 +23,7 @@ function draw(){
     textAlign(CENTER, CENTER);
     text(userName, width/2, 180);
     text(userAge, width/2, 210);
+    text()
 }
 
 function updateText(){
