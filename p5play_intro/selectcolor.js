@@ -5,8 +5,8 @@ let userAge = "Age";
 let textone = "Your Name:";
 let texttwo = "Your Age:";
 let textthree = "Colour:";
-let textfour = "Text Colout:";
-let textfive = "Rectangle "
+let textfour = "Text Colour:";
+let textfive = "Rectangle Colour:";
 let colorpicker;
 let textpicker;
 let rectpicker;
