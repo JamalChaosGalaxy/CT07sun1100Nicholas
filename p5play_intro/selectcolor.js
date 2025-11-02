@@ -23,7 +23,7 @@ function setup(){
 }
 
 function draw(){
-    fill(225);
+    
     background(colorpicker.value());
     fill(0);
     textSize(20);
@@ -33,7 +33,6 @@ function draw(){
     textSize(15);
     text(textone, 180, 300);
     text(texttwo, 180, 320);
-    rect(50, 100, 500, 160, 20);
 }
 
 function updateText(){
